@@ -12,7 +12,7 @@
       "Submarine"
     ],
     "row": 3,
-    "column": 14
+    "column": 27
   },
   {
     "name": "Charge I",
@@ -24,7 +24,7 @@
       "Armored"
     ],
     "row": 1,
-    "column": 14
+    "column": 27
   },
   {
     "name": "Pinpoint Bombing I",
@@ -49,7 +49,7 @@
       "Submarine"
     ],
     "row": 3,
-    "column": 10
+    "column": 28
   },
   {
     "name": "Tactical Evasion I",
@@ -66,120 +66,157 @@
     "name": "[African Forest Elephant] ability",
     "uniques": [
       "[Great General] is earned [100]% faster"
-    ]
+    ],
+    "column": 29
   },
   {
     "name": "[Andean Army] ability",
     "uniques": [
       "Ignores terrain cost",
       "Can pass through impassable tiles"
-    ]
+    ],
+    "column": 29
   },
   {
     "name": "[Battering Ram Warrior] ability",
     "uniques": [
       "[+33]% Strength <vs cities> <when attacking>"
-    ]
+    ],
+    "column": 29
   },
   {
     "name": "[Berserker] ability",
     "uniques": [
       "Destroys tile improvements when attacking",
       "Ignores Zone of Control"
-    ]
+    ],
+    "column": 29
   },
   {
     "name": "[Black Watch] ability",
     "uniques": [
       "[+20]% Strength <when fighting in [Rough terrain] tiles>"
-    ]
+    ],
+    "column": 29
   },
   {
     "name": "[Companion Cavalry] ability",
     "uniques": [
       "[+15]% Strength <when attacking> <when above [90] HP>"
-    ]
+    ],
+    "column": 29
   },
   {
     "name": "[Elite Cavalry] ability",
     "uniques": [
       "[+15]% Strength <when adjacent to a [Great General] unit>"
-    ]
+    ],
+    "column": 29
   },
   {
     "name": "[Fjelljeger] ability",
     "uniques": [
       "[+1] Movement <in [Hill] tiles>"
-    ]
+    ],
+    "column": 29
   },
   {
     "name": "[Heavy Spear Cavalry] ability",
     "uniques": [
       "[+25]% Strength <vs [Mounted] units>"
-    ]
+    ],
+    "column": 29
   },
   {
     "name": "[Hypaspist] ability",
     "uniques": [
       "[+75]% to Flank Attack bonuses"
-    ]
+    ],
+    "column": 29
   },
   {
     "name": "[Impi] ability",
     "uniques": [
       "[+50]% XP gained from combat",
       "[+50]% to Flank Attack bonuses"
-    ]
+    ],
+    "column": 29
   },
   {
     "name": "[Iron Wall Legion] ability",
     "uniques": [
       "Can build [Fort] improvements on tiles",
       "[+20]% Strength <when defending>"
-    ]
+    ],
+    "column": 29
   },
   {
     "name": "[Keshik] ability",
     "uniques": [
       "[Great General] is earned [50]% faster",
       "[+50]% XP gained from combat"
-    ]
+    ],
+    "column": 29
   },
   {
     "name": "[Miner Corps] ability",
     "uniques": [
       "[+20]% Strength <when fighting in [Mine] tiles>"
-    ]
+    ],
+    "column": 29
   },
   {
     "name": "[Mobile Archer] ability",
     "uniques": [
       "Ignores terrain cost"
-    ]
+    ],
+    "column": 29
   },
   {
     "name": "[Redshirts] ability",
     "uniques": [
       "[+15]% Strength <when fighting in [Hill] tiles>"
-    ]
+    ],
+    "column": 29
   },
   {
     "name": "[Templar Knight] ability",
     "uniques": [
       "Gain [200] [Gold] <(modified by game speed)> <upon being defeated>",
       "Gain [40] [Faith] <(modified by game speed)> <upon being promoted>"
-    ]
+    ],
+    "column": 29
   },
   {
     "name": "[Winged Hussar] ability",
     "uniques": [
       "Withdraws before melee combat <with [66]% chance>"
-    ]
+    ],
+    "column": 29
   },
   {
     "name": "[Yin Archer] ability",
     "uniques": [
       "[+10]% Strength <when adjacent to a [Mounted] unit>"
+    ],
+    "column": 29
+  },
+  {
+    "name": "[Red Mirror Horseman] ability",
+    "uniques": [
+      "[+10]% Strength <when attacking>"
+    ]
+  },
+  {
+    "name": "[Mamluk Cavalry] ability",
+    "uniques": [
+      "Can move after attacking"
+    ]
+  },
+  {
+    "name": "[Carolingian Knight] ability",
+    "uniques": [
+      "[+10]% Strength <when attacking>"
     ]
   }
 ]

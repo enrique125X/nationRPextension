@@ -146,7 +146,7 @@
     "uniqueName": "Praise Allah",
     "uniqueText": "+1/2/3 [Faith] and [Science] while researching [Belief Worship] / [Writing] / [Calendar]\nReceive free ☮Great Prophet when you discover [Calendar]\nEarn 75% of killed☠ Military unit's †Strength as ☮Faith",
     "uniques": [
-      "[+1 Faith, +1 Science] <while researching [Belief Worship]>",
+      "[+1 Faith, +1 Science] <while researching [Pottery]>",
       "[+2 Faith, +2 Science] <while researching [Writing]>",
       "[+3 Faith, +3 Science] <while researching [Calendar]>",
       "Free [Great Prophet] appears<upon discovering [Calendar] technology>",
@@ -233,7 +233,7 @@
     "uniques": [
       "[+10]% Strength <vs [Major] units> <for [Military] units> <when attacking>",
       "[+30]% Strength <for [Military] units><vs [City-States]>",
-      "[+1] Movement <for [Mobile] units>"
+      "[+1] Movement <for [Mounted] units>"
     ],
     "cities": [
       "Karakorum",
@@ -555,10 +555,8 @@
     "uniqueName": "Ingenuity",
     "uniqueText": "Gain 50% of the required [Production] demand for [Science] upon constructing Buildings in all cities",
     "uniques": [
-      "Gain [11] [Science] <(modified by game speed)><upon constructing [Bonfire] [in all cities]>",
       "Gain [23] [Science] <(modified by game speed)> <upon constructing [Shrine] [in all cities]>",
       "Gain [23] [Science] <(modified by game speed)> <upon constructing [Water Mill] [in all cities]>",
-      "Gain [30] [Science] <(modified by game speed)> <upon constructing [Kiln] [in all cities]>",
       "Gain [30] [Science] <(modified by game speed)> <upon constructing [Granary] [in all cities]>",
       "Gain [30] [Science] <(modified by game speed)> <upon constructing [Library] [in all cities]>",
       "Gain [30] [Science] <(modified by game speed)> <upon constructing [Stone Works] [in all cities]>",
@@ -570,7 +568,6 @@
       "Gain [50] [Science] <(modified by game speed)> <upon constructing [Temple] [in all cities]>",
       "Gain [50] [Science] <(modified by game speed)> <upon constructing [Lighthouse] [in all cities]>",
       "Gain [50] [Science] <(modified by game speed)> <upon constructing [Stable] [in all cities]>",
-      "Gain [50] [Science] <(modified by game speed)> <upon constructing [Smithy] [in all cities]>",
       "Gain [53] [Science] <(modified by game speed)> <upon constructing [Aqueduct] [in all cities]>",
       "Gain [42] [Science] <(modified by game speed)> <upon constructing [Barracks] [in all cities]>",
       "Gain [53] [Science] <(modified by game speed)> <upon constructing [Mint] [in all cities]>",
@@ -585,7 +582,6 @@
       "Gain [75] [Science] <(modified by game speed)> <upon constructing [Castle] [in all cities]>",
       "Gain [75] [Science] <(modified by game speed)> <upon constructing [Windmill] [in all cities]>",
       "Gain [85] [Science] <(modified by game speed)> <upon constructing [Observatory] [in all cities]>",
-      "Gain [135] [Science] <(modified by game speed)> <upon constructing [Printing House] [in all cities]>",
       "Gain [135] [Science] <(modified by game speed)> <upon constructing [Theatre] [in all cities]>",
       "Gain [145] [Science] <(modified by game speed)> <upon constructing [Ironworks] [in all cities]>",
       "Gain [145] [Science] <(modified by game speed)> <upon constructing [Seaport] [in all cities]>",
@@ -594,18 +590,15 @@
       "Gain [160] [Science] <(modified by game speed)> <upon constructing [Bank] [in all cities]>",
       "Gain [218] [Science] <(modified by game speed)> <upon constructing [Public School] [in all cities]>",
       "Gain [218] [Science] <(modified by game speed)> <upon constructing [Military Academy] [in all cities]>",
-      "Gain [218] [Science] <(modified by game speed)> <upon constructing [Shipyard] [in all cities]>",
       "Gain [218] [Science] <(modified by game speed)> <upon constructing [Police Station] [in all cities]>",
       "Gain [255] [Science] <(modified by game speed)> <upon constructing [Factory] [in all cities]>",
       "Gain [255] [Science] <(modified by game speed)> <upon constructing [Museum] [in all cities]>",
       "Gain [280] [Science] <(modified by game speed)> <upon constructing [Hospital] [in all cities]>",
       "Gain [280] [Science] <(modified by game speed)> <upon constructing [Stock Exchange] [in all cities]>",
       "Gain [325] [Science] <(modified by game speed)> <upon constructing [Hydro Plant] [in all cities]>",
-      "Gain [325] [Science] <(modified by game speed)> <upon constructing [Coal-Fired Power Plant] [in all cities]>",
       "Gain [325] [Science] <(modified by game speed)> <upon constructing [Military Base] [in all cities]>",
       "Gain [350] [Science] <(modified by game speed)> <upon constructing [Stadium] [in all cities]>",
       "Gain [350] [Science] <(modified by game speed)> <upon constructing [Broadcast Tower] [in all cities]>",
-      "Gain [400] [Science] <(modified by game speed)> <upon constructing [Chemical Plant] [in all cities]>",
       "Gain [450] [Science] <(modified by game speed)> <upon constructing [Research Lab] [in all cities]>",
       "Gain [500] [Science] <(modified by game speed)> <upon constructing [Solar Plant] [in all cities]>",
       "Gain [500] [Science] <(modified by game speed)> <upon constructing [Recycling Center] [in all cities]>",
@@ -701,7 +694,7 @@
     "uniqueText": "[Enemy military units must spend 2 extra ➡movement points when inside your territory\nEnemy Mobile units must spend 1 extra ➡movement points when inside your territory]\n[[[+1 Production] [in all cities]] [when not at war]]",
     "uniques": [
       "Enemy [Military] units must spend [2] extra movement points when inside your territory",
-      "Enemy [Mobile] units must spend [1] extra movement points when inside your territory",
+      "Enemy [Mounted] units must spend [1] extra movement points when inside your territory",
       "[+1 Production] [in all cities] <when not at war>"
     ],
     "cities": [
@@ -858,42 +851,12 @@
     "uniqueName": "Freedom Will",
     "uniqueText": "When you have n cities, if your basic military units are less than n, you will automatically receive 1 basic military units evry 3 turns, up to a maximum of two\nThe fewer cities there are, the higher the †Strength of military units",
     "uniques": [
-      "[1] free [Warrior] units appear <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <before discovering [Bronze Working]> <upon turn end> <when number of [CD] is equal to [3]>",
-      "Instantly provides [4] [CD] <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <before discovering [Bronze Working]> <upon turn end> <when number of [CD] is equal to [0]>",
-      "[1] free [Warrior] units appear <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <before discovering [Bronze Working]> <upon turn end> <when number of [CD] is equal to [3]>",
-      "Instantly provides [4] [CD] <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <before discovering [Bronze Working]> <upon turn end> <when number of [CD] is equal to [0]>",
-      "[1] free [Spearman] units appear <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Bronze Working]> <before discovering [Defensive Fortification]> <upon turn end> <when number of [CD] is equal to [3]>",
-      "Instantly provides [4] [CD] <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Bronze Working]> <before discovering [Defensive Fortification]> <upon turn end> <when number of [CD] is equal to [0]>",
-      "[1] free [Spearman] units appear <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Bronze Working]> <before discovering [Defensive Fortification]> <upon turn end> <when number of [CD] is equal to [3]>",
-      "Instantly provides [4] [CD] <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Bronze Working]> <before discovering [Defensive Fortification]> <upon turn end> <when number of [CD] is equal to [0]>",
-      "[1] free [Pikeman] units appear <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Defensive Fortification]> <before discovering [Gunpowder]> <upon turn end> <when number of [CD] is equal to [3]>",
-      "Instantly provides [4] [CD] <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Defensive Fortification]> <before discovering [Gunpowder]> <upon turn end> <when number of [CD] is equal to [0]>",
-      "[1] free [Pikeman] units appear <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Defensive Fortification]> <before discovering [Gunpowder]> <upon turn end> <when number of [CD] is equal to [3]>",
-      "Instantly provides [4] [CD] <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Defensive Fortification]> <before discovering [Gunpowder]> <upon turn end> <when number of [CD] is equal to [0]>",
-      "[1] free [Musketman] units appear <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Gunpowder]> <before discovering [Rifling]> <upon turn end> <when number of [CD] is equal to [3]>",
-      "Instantly provides [4] [CD] <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Gunpowder]> <before discovering [Rifling]> <upon turn end> <when number of [CD] is equal to [0]>",
-      "[1] free [Musketman] units appear <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Gunpowder]> <before discovering [Rifling]> <upon turn end> <when number of [CD] is equal to [3]>",
-      "Instantly provides [4] [CD] <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Gunpowder]> <before discovering [Rifling]> <upon turn end> <when number of [CD] is equal to [0]>",
-      "[1] free [Rifleman] units appear <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Rifling]> <before discovering [Replaceable Parts]> <upon turn end> <when number of [CD] is equal to [3]>",
-      "Instantly provides [4] [CD] <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Rifling]> <before discovering [Replaceable Parts]> <upon turn end> <when number of [CD] is equal to [0]>",
-      "[1] free [Rifleman] units appear <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Rifling]> <before discovering [Replaceable Parts]> <upon turn end> <when number of [CD] is equal to [3]>",
-      "Instantly provides [4] [CD] <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Rifling]> <before discovering [Replaceable Parts]> <upon turn end> <when number of [CD] is equal to [0]>",
-      "[1] free [Great War Infantry] units appear <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Replaceable Parts]> <before discovering [Materials Science]> <upon turn end> <when number of [CD] is equal to [3]>",
-      "Instantly provides [4] [CD] <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Replaceable Parts]> <before discovering [Materials Science]> <upon turn end> <when number of [CD] is equal to [0]>",
-      "[1] free [Great War Infantry] units appear <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Replaceable Parts]> <before discovering [Materials Science]> <upon turn end> <when number of [CD] is equal to [3]>",
-      "Instantly provides [4] [CD] <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Replaceable Parts]> <before discovering [Materials Science]> <upon turn end> <when number of [CD] is equal to [0]>",
-      "[1] free [Infantry] units appear <when below [1] [Number of Fighters]> <when number of [Cities] is more than [0]> <after discovering [Materials Science]> <upon turn end>",
-      "[1] free [Infantry] units appear <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Materials Science]> <upon turn end> <when number of [CD] is equal to [3]>",
-      "Instantly provides [4] [CD] <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Materials Science]> <upon turn end> <when number of [CD] is equal to [0]>",
-      "[1] free [Infantry] units appear <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Materials Science]> <upon turn end> <when number of [CD] is equal to [3]>",
-      "Instantly provides [4] [CD] <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Materials Science]> <upon turn end> <when number of [CD] is equal to [0]>",
       "[+25]% Strength <for [Military] units> <when number of [Cities] is equal to [1]>",
       "[+21]% Strength <for [Military] units> <when number of [Cities] is equal to [2]>",
       "[+17]% Strength <for [Military] units> <when number of [Cities] is equal to [3]>",
       "[+13]% Strength <for [Military] units> <when number of [Cities] is equal to [4]>",
       "[+9]% Strength <for [Military] units> <when number of [Cities] is equal to [5]>",
-      "[+7]% Strength <for [Military] units> <when number of [Cities] is more than [5]>",
-      "Provides [-1] [CD] <when number of [CD] is more than [0]>"
+      "[+7]% Strength <for [Military] units> <when number of [Cities] is more than [5]>"
     ],
     "cities": [
       "Ramallah",
@@ -953,8 +916,7 @@
     "uniqueName": "Father Governs Children",
     "uniqueText": "[[+2]% Yield from every [Culture] buildings]\n[[+2]% Yield from every [City Level] buildings]",
     "uniques": [
-      "[+2]% Yield from every [Culture]",
-      "[+2]% Yield from every [City Level]"
+      "[+2]% Yield from every [Culture]"
     ],
     "cities": [
       "Bangkok",
@@ -1209,8 +1171,7 @@
     "uniqueName": "Defenders of Islam",
     "uniqueText": "[[+1 Science, +1 Production] [in cities following our religion]]\n[Upon Mobile Unit damaging a unit, target unit loses 1 movement and -15% Strength for 1 turn]",
     "uniques": [
-      "[+1 Science, +1 Production] [in cities following our religion]",
-      "All newly-trained [Mobile] units [in all cities] receive the [Mamluk ability] promotion"
+      "[+1 Science, +1 Production] [in cities following our religion]"
     ],
     "cities": [
       "Cairo",
@@ -1494,11 +1455,7 @@
       "Gain [50] [Culture] <upon expending a [Great Person] unit> <(modified by game speed)>",
       "Gain [80] [Science] <upon expending a [Great Person] unit> <(modified by game speed)>",
       "Gain [50] [Culture] <(modified by game speed)> <upon gaining a [Great Person] unit>",
-      "Gain [80] [Science] <(modified by game speed)> <upon gaining a [Great Person] unit>",
-      "Gain [50] [Culture] <upon expending a [Special Great Person] unit> <(modified by game speed)>",
-      "Gain [100] [Science] <upon expending a [Special Great Person] unit> <(modified by game speed)>",
-      "Gain [50] [Culture] <(modified by game speed)> <upon gaining a [Special Great Person] unit>",
-      "Gain [100] [Science] <(modified by game speed)> <upon gaining a [Special Great Person] unit>"
+      "Gain [80] [Science] <(modified by game speed)> <upon gaining a [Great Person] unit>"
     ],
     "cities": [
       "Athens",
@@ -2364,9 +2321,7 @@
     ],
     "uniqueName": "Conquerors of the New World",
     "uniqueText": "[Settler] can instantly construct a [Colony] improvement one time\n+50% Yield from every Natural Wonder within 1 tiles of a [Colony]",
-    "uniques": [
-      "[+50]% Yield from every [Natural Wonder] <within [1] tiles of a [Colony]>"
-    ],
+    "uniques": [],
     "cities": [
       "Madrid",
       "Barcelona",
@@ -2519,16 +2474,7 @@
     ],
     "uniqueName": "Tide of Revolution",
     "uniqueText": "[Start with 3 Civilized Leaders at the beginning\nAt the end of Turn 30, choose your final leader. Unselected leaders will depart, while the chosen one will be enhanced]",
-    "uniques": [
-      "Gain a free [Civilized Leader-Lenin] [in capital] <before turn number [30]>",
-      "Gain a free [Civilized Leader-Stalin] [in capital] <before turn number [30]>",
-      "Gain a free [Civilized Leader-Trotsky] [in capital] <before turn number [30]>",
-      "Remove [Civilized Leader-Lenin] [in capital] <after turn number [30]> <before turn number [31]> <upon turn end>",
-      "Remove [Civilized Leader-Stalin] [in capital] <after turn number [30]> <before turn number [31]> <upon turn end>",
-      "Remove [Civilized Leader-Trotsky] [in capital] <after turn number [30]> <before turn number [31]> <upon turn end>",
-      "Triggers a [Select Final Civilized Leader] event <after turn number [30]> <before turn number [31]> <upon turn end> <for [Human player] Civilizations>",
-      "Gain a free [Civilized Leader-Stalin] [in capital] <after turn number [31]> <before turn number [32]> <upon turn end> <for [AI player] Civilizations>"
-    ],
+    "uniques": [],
     "cities": [
       "Leningrad",
       "Stalingrad",
@@ -2912,13 +2858,7 @@
     ],
     "uniqueName": "Dutch East India Company",
     "uniqueText": "Obtain 1 Investment Project in 15 / 25 / 50 / 75 / 100 turn until all Investment Projects are obtained\nInvestment Projects can be sold to other civilizations for 5 [Gold] through transactions\nInfrastructure investment:[[+10]% Production when constructing [All] buildings [in all cities]],+1 [Production] in all cities after purchasing from other civilizations\nProductive Investment:+15% [Gold],+2 [Gold] in all cities after purchasing from other civilizations\nResearch Investment:+10% [Science],+1 [Science] in all cities, +1 [Science] from every specialist in capital and +1 [Science] in all cities connected to capital after purchasing from other civilizations\nEntertainment Investment:+10% [Culture],[+1 Culture, +1 Happiness] [in all cities connected to capital] after purchasing from other civilizations\nGrain Investment:+8% [Food] in all cities,+15% growth in all cities after purchasing from other civilizations",
-    "uniques": [
-      "Triggers a [Obtain Investment Projects] event <upon turn end> <when number of [turns] is equal to [15]>",
-      "Triggers a [Obtain Investment Projects] event <upon turn end> <when number of [turns] is equal to [25]>",
-      "Triggers a [Obtain Investment Projects] event <upon turn end> <when number of [turns] is equal to [50]>",
-      "Triggers a [Obtain Investment Projects] event <upon turn end> <when number of [turns] is equal to [75]>",
-      "Triggers a [Obtain Investment Projects] event <upon turn end> <when number of [turns] is equal to [100]>"
-    ],
+    "uniques": [],
     "cities": [
       "Amsterdam",
       "Rotterdam",
@@ -3257,14 +3197,7 @@
     ],
     "uniqueName": "The Habsburg Dynasty",
     "uniqueText": "[Gain 1 [Marriage Point] for every remaining major Civilizations\nYou can trade 1 [Marriage Point] to form a marriage alliance with another civilization\nAfter the alliance, both parties gain +6% [Science], [Culture], and [Strength], while Austria additionally gains +6% [Production]]\n[[[+2 Gold, +1 Happiness] [in capital]] [for every [Marriage Point]]]",
-    "uniques": [
-      "Provides [1] [Marriage Point] <for every [Remaining [Major] Civilizations]>",
-      "[+6]% [Culture] <for every [[Marriage with Austria] Buildings by [Major] Civilizations]>",
-      "[+6]% [Science] <for every [[Marriage with Austria] Buildings by [Major] Civilizations]>",
-      "[+6]% [Production] [in all cities] <for every [[Marriage with Austria] Buildings by [Major] Civilizations]>",
-      "[+6]% Strength <for every [[Marriage with Austria] Buildings by [Major] Civilizations]>",
-      "[+2 Gold, +1 Happiness] [in capital] <for every [Marriage Point]>"
-    ],
+    "uniques": [],
     "cities": [
       "Vienna",
       "Salzburg",
@@ -3413,9 +3346,6 @@
     "uniqueName": "Renaissance Legacy",
     "uniqueText": "[Upon founding the capital and each time a Great Person is earned, instantly choose +3 Great Person points of any type (each type unique once)]\n[+20% generation rate for that type of Great Person when earned]",
     "uniques": [
-      "Triggers a [Choose 3 free Great Person points] event <upon constructing [Palace]>",
-      "Triggers a [Choose 3 free Great Person points] event <upon gaining a [Great Person] unit>",
-      "Triggers a [Choose 3 free Great Person points] event <upon gaining a [Special Great Person] unit>",
       "Instantly provides [1] [AR] <upon gaining a [Great Artist] unit>",
       "Instantly provides [1] [SC] <upon gaining a [Great Scientist] unit>",
       "Instantly provides [1] [ME] <upon gaining a [Great Merchant] unit>",
@@ -3514,10 +3444,7 @@
     ],
     "uniqueName": "North Sea Silver Pact",
     "uniqueText": "[Provides [1] [Silver Coin], gain 1 / 5 [Silver Coin] when Military units damage / kill enemy units, doubled in Golden Age]\n[[Itinerant Merchant] convert [Silver Coin] to [Production] at 1:2 rate in [City center]]\n[Spend 60 [Silver Coin] to upgrade a military unit to [Great General]]",
-    "uniques": [
-      "Provides [1] [Silver Coin]",
-      "Provides [1] [Silver Coin] <during a Golden Age>"
-    ],
+    "uniques": [],
     "cities": [
       "Oslo",
       "Bergen",
@@ -3677,8 +3604,6 @@
       "[+3]% Strength <for [Military] units> <when above [0] [Furs]>",
       "[+5 Gold] <when above [0] [Citrus]>",
       "[+3]% Strength <for [Military] units> <when above [0] [Citrus]>",
-      "[+5 Gold] <when above [0] [Cocoa]>",
-      "[+3]% Strength <for [Military] units> <when above [0] [Cocoa]>",
       "[+5 Gold] <when above [0] [Copper]>",
       "[+3]% Strength <for [Military] units> <when above [0] [Copper]>",
       "[+5 Gold] <when above [0] [Cotton]>",
@@ -3718,9 +3643,7 @@
       "[+5 Gold] <when above [0] [Whales]>",
       "[+3]% Strength <for [Military] units> <when above [0] [Whales]>",
       "[+5 Gold] <when above [0] [Wine]>",
-      "[+3]% Strength <for [Military] units> <when above [0] [Wine]>",
-      "[+5 Gold] <when above [0] [Panda]>",
-      "[+3]% Strength <for [Military] units> <when above [0] [Panda]>"
+      "[+3]% Strength <for [Military] units> <when above [0] [Wine]>"
     ],
     "cities": [
       "Tenochtitlan",
@@ -3806,7 +3729,7 @@
     "uniques": [
       "Receive a free Great Person at the end of every [Maya Long Count calendar cycle] (every 394 years), after researching [Theology]. Each bonus person can only be chosen once.",
       "Once The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count.",
-      "Research [25]% of [Theology] <upon discovering [Drill Wood to Make Fire] technology>"
+      "Research [25]% of [Theology] <upon discovering [Mining] technology>"
     ],
     "cities": [
       "Palenque",
@@ -4377,23 +4300,13 @@
       "Remove [Republic] and refund [100]% of its cost <upon entering a new era> <after adopting [Republic]> <before adopting [Tradition Complete]>",
       "Remove [Oligarchy] and refund [100]% of its cost <upon entering a new era> <after adopting [Oligarchy]> <before adopting [Tradition Complete]>",
       "Remove [Collective Rule] and refund [100]% of its cost <upon entering a new era> <after adopting [Collective Rule]> <before adopting [Tradition Complete]>",
-      "Remove [Feudalism1] and refund [100]% of its cost <upon entering a new era> <after adopting [Feudalism1]> <before adopting [Feudalism1 Complete]>",
-      "Remove [Monarchy] and refund [100]% of its cost <upon entering a new era> <after adopting [Monarchy]> <before adopting [Feudalism1 Complete]>",
-      "Remove [Lord-Vassal] and refund [100]% of its cost <upon entering a new era> <after adopting [Lord-Vassal]> <before adopting [Feudalism1 Complete]>",
-      "Remove [Centralization] and refund [100]% of its cost <upon entering a new era> <after adopting [Centralization]> <before adopting [Feudalism1 Complete]>",
-      "Remove [Military Caste] and refund [100]% of its cost <upon entering a new era> <after adopting [Military Caste]> <before adopting [Feudalism1 Complete]>",
-      "Remove [Landed Elite] and refund [100]% of its cost <upon entering a new era> <after adopting [Landed Elite]> <before adopting [Feudalism1 Complete]>",
       "Remove [Liberty] and refund [100]% of its cost <upon entering a new era> <after adopting [Liberty]> <before adopting [Liberty Complete]>",
       "Remove [Nationalism] and refund [100]% of its cost <upon entering a new era> <after adopting [Nationalism]> <before adopting [Liberty Complete]>",
       "Remove [Representation] and refund [100]% of its cost <upon entering a new era> <after adopting [Representation]> <before adopting [Liberty Complete]>",
-      "Remove [Urbanization] and refund [100]% of its cost <upon entering a new era> <after adopting [Urbanization]> <before adopting [Liberty Complete]>",
       "Remove [Meritocracy] and refund [100]% of its cost <upon entering a new era> <after adopting [Meritocracy]> <before adopting [Liberty Complete]>",
-      "Remove [Imperialism] and refund [100]% of its cost <upon entering a new era> <after adopting [Imperialism]> <before adopting [Liberty Complete]>",
       "Remove [Autocracy] and refund [100]% of its cost <upon entering a new era> <after adopting [Autocracy]> <before adopting [Autocracy Complete]>",
       "Remove [Police State] and refund [100]% of its cost <upon entering a new era> <after adopting [Police State]> <before adopting [Autocracy Complete]>",
       "Remove [Militarism] and refund [100]% of its cost <upon entering a new era> <after adopting [Militarism]> <before adopting [Autocracy Complete]>",
-      "Remove [Hate Propaganda] and refund [100]% of its cost <upon entering a new era> <after adopting [Hate Propaganda]> <before adopting [Autocracy Complete]>",
-      "Remove [Military Chemical Industry] and refund [100]% of its cost <upon entering a new era> <after adopting [Military Chemical Industry]> <before adopting [Autocracy Complete]>",
       "Remove [Fascism] and refund [100]% of its cost <upon entering a new era> <after adopting [Fascism]> <before adopting [Autocracy Complete]>",
       "Remove [Total War] and refund [100]% of its cost <upon entering a new era> <after adopting [Total War]> <before adopting [Autocracy Complete]>",
       "Remove [Freedom] and refund [100]% of its cost <upon entering a new era> <after adopting [Freedom]> <before adopting [Freedom Complete]>",
@@ -4402,13 +4315,11 @@
       "Remove [Civil Society] and refund [100]% of its cost <upon entering a new era> <after adopting [Civil Society]> <before adopting [Freedom Complete]>",
       "Remove [Free Speech] and refund [100]% of its cost <upon entering a new era> <after adopting [Free Speech]> <before adopting [Freedom Complete]>",
       "Remove [Democracy] and refund [100]% of its cost <upon entering a new era> <after adopting [Democracy]> <before adopting [Freedom Complete]>",
-      "Remove [Neoliberalism] and refund [100]% of its cost <upon entering a new era> <after adopting [Neoliberalism]> <before adopting [Freedom Complete]>",
       "Remove [Order] and refund [100]% of its cost <upon entering a new era> <after adopting [Order]> <before adopting [Order Complete]>",
       "Remove [United Front] and refund [100]% of its cost <upon entering a new era> <after adopting [United Front]> <before adopting [Order Complete]>",
       "Remove [Planned Economy] and refund [100]% of its cost <upon entering a new era> <after adopting [Planned Economy]> <before adopting [Order Complete]>",
       "Remove [Populism] and refund [100]% of its cost <upon entering a new era> <after adopting [Populism]> <before adopting [Order Complete]>",
       "Remove [Socialism] and refund [100]% of its cost <upon entering a new era> <after adopting [Socialism]> <before adopting [Order Complete]>",
-      "Remove [The Five-Year Plan] and refund [100]% of its cost <upon entering a new era> <after adopting [The Five-Year Plan]> <before adopting [Order Complete]>",
       "Remove [Communism] and refund [100]% of its cost <upon entering a new era> <after adopting [Communism]> <before adopting [Order Complete]>",
       "Remove [Rationalism] and refund [100]% of its cost <upon entering a new era> <after adopting [Rationalism]> <before adopting [Rationalism Complete]>",
       "Remove [Secularism] and refund [100]% of its cost <upon entering a new era> <after adopting [Secularism]> <before adopting [Rationalism Complete]>",
@@ -4416,12 +4327,6 @@
       "Remove [Free Thought] and refund [100]% of its cost <upon entering a new era> <after adopting [Free Thought]> <before adopting [Rationalism Complete]>",
       "Remove [Sovereignty] and refund [100]% of its cost <upon entering a new era> <after adopting [Sovereignty]> <before adopting [Rationalism Complete]>",
       "Remove [Scientific Revolution] and refund [100]% of its cost <upon entering a new era> <after adopting [Scientific Revolution]> <before adopting [Rationalism Complete]>",
-      "Remove [Industrial] and refund [100]% of its cost <upon entering a new era> <after adopting [Industrial]> <before adopting [Industrial Complete]>",
-      "Remove [Price Scissors] and refund [100]% of its cost <upon entering a new era> <after adopting [Price Scissors]> <before adopting [Industrial Complete]>",
-      "Remove [Industrialism] and refund [100]% of its cost <upon entering a new era> <after adopting [Industrialism]> <before adopting [Industrial Complete]>",
-      "Remove [Agglomeration Planning] and refund [100]% of its cost <upon entering a new era> <after adopting [Agglomeration Planning]> <before adopting [Industrial Complete]>",
-      "Remove [Rural Population Migration] and refund [100]% of its cost <upon entering a new era> <after adopting [Rural Population Migration]> <before adopting [Industrial Complete]>",
-      "Remove [Sustainable Development] and refund [100]% of its cost <upon entering a new era> <after adopting [Sustainable Development]> <before adopting [Industrial Complete]>",
       "Remove [Patronage] and refund [100]% of its cost <upon entering a new era> <after adopting [Patronage]> <before adopting [Patronage Complete]>",
       "Remove [Philantropy] and refund [100]% of its cost <upon entering a new era> <after adopting [Philantropy]> <before adopting [Patronage Complete]>",
       "Remove [Aesthetics] and refund [100]% of its cost <upon entering a new era> <after adopting [Aesthetics]> <before adopting [Patronage Complete]>",
@@ -4441,7 +4346,6 @@
       "Remove [Reformation] and refund [100]% of its cost <upon entering a new era> <after adopting [Reformation]> <before adopting [Piety Complete]>",
       "Remove [Free Religion] and refund [100]% of its cost <upon entering a new era> <after adopting [Free Religion]> <before adopting [Piety Complete]>",
       "Remove [Honor] and refund [100]% of its cost <upon entering a new era> <after adopting [Honor]> <before adopting [Honor Complete]>",
-      "Remove [Military Reclamation System] and refund [100]% of its cost <upon entering a new era> <after adopting [Military Reclamation System]> <before adopting [Honor Complete]>",
       "Remove [Warrior Code] and refund [100]% of its cost <upon entering a new era> <after adopting [Warrior Code]> <before adopting [Honor Complete]>",
       "Remove [Discipline] and refund [100]% of its cost <upon entering a new era> <after adopting [Discipline]> <before adopting [Honor Complete]>",
       "Remove [Military Tradition] and refund [100]% of its cost <upon entering a new era> <after adopting [Military Tradition]> <before adopting [Honor Complete]>",
@@ -4590,10 +4494,8 @@
     "uniqueText": "[May buy Wonder with [Faith] for 1 times their normal Production cost, with the [Faith] cost increasing by 70% for each owned World Wonder building]\n[+1 / +3% [Faith] for every National / World Wonder]",
     "uniques": [
       "May buy [Wonder] buildings with [Faith] for [1] times their normal Production cost",
-      "[Faith] cost of purchasing [Wonder] buildings [+70]% <for every [[Number of Constructed Wonder]-1]>",
       "[+1 Faith] [in capital] <for every [[National Wonder] Buildings]>",
-      "[+3]% [Faith] <for every [[World Wonder] Buildings]>",
-      "Instantly provides [1] [Number of Constructed Wonder] <upon constructing [World Wonder]>"
+      "[+3]% [Faith] <for every [[World Wonder] Buildings]>"
     ],
     "cities": [
       "Cairo",
@@ -4668,10 +4570,7 @@
     ],
     "uniqueName": "Sacrifice",
     "uniqueText": "Triggers a Sacrifice event upon every 5 turn end or conquering a city",
-    "uniques": [
-      "Triggers a [Sacrifice I] event <upon turn end> <every [5] turns>",
-      "Triggers a [Sacrifice II] event <upon conquering a city>"
-    ],
+    "uniques": [],
     "cities": [
       "Porto-Novo",
       "Cotonou",
@@ -5424,7 +5323,6 @@
     "uniqueName": "Wolf of the Prairie",
     "uniqueText": "[[[Target Unit] takes [6] damage] [upon damaging a [Wounded] unit]]\n[\"Borrows\" city names from other civilizations in the game]",
     "uniques": [
-      "[Military] units gain the [Turk ability] promotion",
       "\"Borrows\" city names from other civilizations in the game"
     ],
     "cities": [
@@ -5604,7 +5502,7 @@
     "uniqueName": "Unstoppable Expansion",
     "uniqueText": "This is the runner-up reward of the second Leader Mission Competition.\n\nUnits ignore terrain costs when moving into any tile with Hills\n[All newly-trained [Reconnaissance] units [in all cities] receive the [Survivalism I] promotion]\nBorrows city names from other civilizations in the game",
     "uniques": [
-      "All newly-trained [Reconnaissance] units [in all cities] receive the [Survivalism I] promotion",
+      "All newly-trained [Scout] units [in all cities] receive the [Survivalism I] promotion",
       "Units ignore terrain costs when moving into any tile with Hills",
       "\"Borrows\" city names from other civilizations in the game"
     ],
@@ -5661,9 +5559,6 @@
     "uniqueName": "Yin-Yang Harmony",
     "uniqueText": "This is the championship reward of the third Leader Mission Competition.\n\n-1% growth in all cities for every 3 Warfare Aversion Level\n+1% Strength and Production for every 3 Warfare Aversion Level\n+1 Culture and +1 Faith in capital when not at war\n+1 Science and +1 Gold in all cities when at war\n[\"Borrows\" city names from other civilizations in the game]",
     "uniques": [
-      "[-1]% growth [in all cities] <for every [3] [Warfare Aversion Level]>",
-      "[+1]% Strength <for [Military] units> <for every [3] [Warfare Aversion Level]>",
-      "[+1]% [Production] <for every [3] [Warfare Aversion Level]>",
       "[+1 Culture, +1 Faith] [in capital] <when not at war>",
       "[+1 Science, +1 Gold] [in all cities] <when at war>",
       "\"Borrows\" city names from other civilizations in the game"

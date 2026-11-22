@@ -1,0 +1,495 @@
+DROP ref unit SovietWorker: No Regrets :: Gain [185] [Gold] <(modified by game speed)> <by consuming this unit> <for [Human player] Civilizations> <if [No Regrets] is constructed> <h
+TECH UNKNOWN unit Mossi Warrior.obsoleteTech: Iron Working -> removed
+DROP ref unit Mossi Warrior: Number of Fighters :: Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users> <hidden from users>
+TECH unit Jaguar.obsoleteTech: Army Formation -> Bronze Working
+DROP ref unit Jaguar: Number of Fighters :: Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>
+TECH unit Maori Warrior.obsoleteTech: Defensive Fortification -> Construction
+DROP ref unit Maori Warrior: Number of Fighters :: Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>
+TECH UNKNOWN unit Hypaspist.requiredTech: Iron Working -> removed
+DROP stockpile unit Hypaspist: Costs [10] [Iron]
+DROP stockpile unit Hypaspist: [This Unit] heals [10] HP <costs [10] [Iron]> <for [1] movement>
+TECH UNKNOWN unit Iron Wall Legion.requiredTech: Iron Working -> removed
+DROP stockpile unit Iron Wall Legion: Costs [10] [Iron]
+DROP stockpile unit Iron Wall Legion: [This Unit] heals [10] HP <costs [10] [Iron]> <for [1] movement>
+TECH UNKNOWN unit Legion.requiredTech: Iron Working -> removed
+DROP stockpile unit Legion: Costs [10] [Iron]
+DROP stockpile unit Legion: [This Unit] heals [10] HP <costs [10] [Iron]> <for [1] movement>
+TECH UNKNOWN unit Berserker.requiredTech: Iron Working -> removed
+TECH UNKNOWN unit Battering Ram Warrior.requiredTech: Iron Working -> removed
+DROP stockpile unit Battering Ram Warrior: Costs [10] [Iron]
+DROP stockpile unit Battering Ram Warrior: [This Unit] heals [10] HP <costs [10] [Iron]> <for [1] movement>
+DROP stockpile unit Five Flank Heavy Infantry: Costs [10] [Iron]
+DROP stockpile unit Five Flank Heavy Infantry: [This Unit] heals [10] HP <costs [10] [Iron]> <for [1] movement>
+DROP stockpile unit Mohawk Warrior: Costs [10] [Iron]
+DROP stockpile unit Mohawk Warrior: [This Unit] heals [10] HP <costs [10] [Iron]> <for [1] movement>
+DROP stockpile unit Black Watch: Costs [10] [Iron]
+DROP stockpile unit Black Watch: [This Unit] heals [10] HP <costs [10] [Iron]> <for [1] movement>
+DROP ref unit Musketeer: Number of Fighters :: Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>
+DROP ref unit Dahomei Women's Guard: Number of Fighters :: Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>
+DROP ref unit Janissary: Number of Fighters :: Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>
+REWRITE unit Tercio: [+50]% Strength <vs [Mobile] units> -> [+50]% Strength <vs [Mounted] units>
+DROP ref unit Tercio: Number of Fighters :: Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>
+DROP ref unit Minuteman: Number of Fighters :: Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>
+TECH UNKNOWN unit Mehal Sefari.obsoleteTech: Replaceable Parts -> removed
+DROP ref unit Mehal Sefari: Number of Fighters :: Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>
+TECH UNKNOWN unit Andean Army.obsoleteTech: Replaceable Parts -> removed
+DROP ref unit Andean Army: Number of Fighters :: Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>
+TECH UNKNOWN unit Redshirts.obsoleteTech: Replaceable Parts -> removed
+DROP ref unit Redshirts: Number of Fighters :: Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>
+TECH UNKNOWN unit Foreign Legion.requiredTech: Replaceable Parts -> removed
+TECH unit Foreign Legion.obsoleteTech: Materials Science -> Plastics
+DROP ref unit Foreign Legion: Number of Fighters :: Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>
+TECH UNKNOWN unit Miner Corps.requiredTech: Replaceable Parts -> removed
+TECH unit Miner Corps.obsoleteTech: Materials Science -> Plastics
+DROP ref unit Miner Corps: Number of Fighters :: Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>
+TECH unit Cobra Commando.requiredTech: Materials Science -> Plastics
+DROP ref unit Cobra Commando: Number of Fighters :: Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>
+DROP ref unit Cuban International Revolutionary Fighter: Number of Fighters :: Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>
+TECH UNKNOWN unit Slinger.obsoleteTech: Iron Working -> removed
+TECH UNKNOWN unit Atlatlist.obsoleteTech: Iron Working -> removed
+REWRITE unit Atlatlist: [+10]% Strength <vs [Anti-Mobile] units> <when attacking> -> [+10]% Strength <vs [Sword] units> <when attacking>
+TECH UNKNOWN unit Bowman.obsoleteTech: Iron Working -> removed
+REWRITE unit Bowman: [+10]% Strength <vs [Anti-Mobile] units> <when attacking> -> [+10]% Strength <vs [Sword] units> <when attacking>
+TECH UNKNOWN unit Yin Archer.requiredTech: Iron Working -> removed
+REWRITE unit Yin Archer: [+10]% Strength <vs [Anti-Mobile] units> <when attacking> -> [+10]% Strength <vs [Sword] units> <when attacking>
+TECH UNKNOWN unit Armored Archer.requiredTech: Iron Working -> removed
+REWRITE unit Armored Archer: [+10]% Strength <vs [Anti-Mobile] units> <when attacking> -> [+10]% Strength <vs [Sword] units> <when attacking>
+TECH UNKNOWN unit Mobile Archer.requiredTech: Iron Working -> removed
+REWRITE unit Mobile Archer: [+10]% Strength <vs [Anti-Mobile] units> <when attacking> -> [+10]% Strength <vs [Sword] units> <when attacking>
+TECH UNKNOWN unit Longbowman.obsoleteTech: Military Science -> removed
+REWRITE unit Longbowman: [+10]% Strength <vs [Anti-Mobile] units> <when attacking> -> [+10]% Strength <vs [Sword] units> <when attacking>
+TECH UNKNOWN unit Chu-Ko-Nu.obsoleteTech: Military Science -> removed
+REWRITE unit Chu-Ko-Nu: [+10]% Strength <vs [Anti-Mobile] units> <when attacking> -> [+10]% Strength <vs [Sword] units> <when attacking>
+TECH UNKNOWN unit Fjelljeger.obsoleteTech: Military Science -> removed
+REWRITE unit Fjelljeger: [+10]% Strength <vs [Anti-Mobile] units> <when attacking> -> [+10]% Strength <vs [Sword] units> <when attacking>
+REWRITE unit Bazooka: [+10]% Strength <vs [Anti-Mobile] units> <when attacking> -> [+10]% Strength <vs [Sword] units> <when attacking>
+REWRITE unit Bazooka: [+50]% Strength <vs [Mobile] units> -> [+50]% Strength <vs [Mounted] units>
+TECH UNKNOWN unit Companion Cavalry.requiredTech: Horseback Riding -> removed
+TECH UNKNOWN unit Cataphract.requiredTech: Horseback Riding -> removed
+TECH UNKNOWN unit African Forest Elephant.requiredTech: Horseback Riding -> removed
+TECH UNKNOWN unit Heavy Spear Cavalry.requiredTech: Horseback Riding -> removed
+TECH UNKNOWN unit Red Mirror Horseman.requiredTech: Horseback Riding -> removed
+TECH UNKNOWN unit Guards Horseman.requiredTech: Horseback Riding -> removed
+TECH UNKNOWN unit War Chariot.requiredTech: The Wheel -> removed
+UPGRADE War Chariot: Mounted Archer -> Knight
+TECH UNKNOWN unit War Elephant.requiredTech: The Wheel -> removed
+UPGRADE War Elephant: Mounted Archer -> Knight
+TECH UNKNOWN unit Horse Archer.requiredTech: The Wheel -> removed
+UPGRADE Horse Archer: Mounted Archer -> Knight
+TECH UNKNOWN unit Ancient Chinese Chariot.requiredTech: The Wheel -> removed
+UPGRADE Ancient Chinese Chariot: Mounted Archer -> Knight
+TECH UNKNOWN unit Cossack.obsoleteTech: Military Science -> removed
+DROP stockpile unit Cossack: Costs [10] [Iron]
+DROP stockpile unit Cossack: [This Unit] heals [10] HP <costs [10] [Iron]> <for [2] movement>
+TECH UNKNOWN unit Conquistador.obsoleteTech: Military Science -> removed
+DROP stockpile unit Conquistador: Costs [10] [Iron]
+DROP stockpile unit Conquistador: [This Unit] heals [10] HP <costs [10] [Iron]> <for [2] movement>
+TECH UNKNOWN unit Vietnam War Elephant.obsoleteTech: Military Science -> removed
+DROP stockpile unit Vietnam War Elephant: Costs [10] [Iron]
+DROP stockpile unit Vietnam War Elephant: [This Unit] heals [10] HP <costs [10] [Iron]> <for [2] movement>
+TECH UNKNOWN unit Templar Knight.obsoleteTech: Military Science -> removed
+DROP stockpile unit Templar Knight: Costs [10] [Iron]
+DROP stockpile unit Templar Knight: [This Unit] heals [10] HP <costs [10] [Iron]> <for [2] movement>
+TECH UNKNOWN unit Naresuan's Elephant.obsoleteTech: Military Science -> removed
+DROP stockpile unit Naresuan's Elephant: Costs [10] [Iron]
+DROP stockpile unit Naresuan's Elephant: [This Unit] heals [10] HP <costs [10] [Iron]> <for [2] movement>
+REWRITE unit Naresuan's Elephant: [+33]% Strength <vs [Mobile] units> -> [+33]% Strength <vs [Mounted] units>
+TECH UNKNOWN unit Mandekalu Cavalry.obsoleteTech: Military Science -> removed
+DROP stockpile unit Mandekalu Cavalry: Costs [10] [Iron]
+DROP stockpile unit Mandekalu Cavalry: [This Unit] heals [10] HP <costs [10] [Iron]> <for [2] movement>
+TECH UNKNOWN unit Elite Cavalry.obsoleteTech: Military Science -> removed
+DROP stockpile unit Elite Cavalry: Costs [10] [Iron]
+DROP stockpile unit Elite Cavalry: [This Unit] heals [10] HP <costs [10] [Iron]> <for [2] movement>
+TECH UNKNOWN unit Mamluk Cavalry.obsoleteTech: Military Science -> removed
+DROP stockpile unit Mamluk Cavalry: Costs [10] [Iron]
+DROP stockpile unit Mamluk Cavalry: [This Unit] heals [10] HP <costs [10] [Iron]> <for [2] movement>
+TECH UNKNOWN unit Carolingian Knight.obsoleteTech: Military Science -> removed
+DROP stockpile unit Carolingian Knight: Costs [10] [Iron]
+DROP stockpile unit Carolingian Knight: [This Unit] heals [10] HP <costs [10] [Iron]> <for [2] movement>
+DROP stockpile unit Carolingian Knight: [This Unit] heals [50] HP <costs [+30 Faith] stats> <for [1] movement>
+TECH UNKNOWN unit Camel Archer.obsoleteTech: Military Science -> removed
+REPLACES Camel Archer: Mounted Archer -> Knight
+TECH UNKNOWN unit Keshik.obsoleteTech: Military Science -> removed
+REPLACES Keshik: Mounted Archer -> Knight
+TECH UNKNOWN unit Cowboy Cavalry.requiredTech: Military Science -> removed
+TECH UNKNOWN unit Hussar.requiredTech: Military Science -> removed
+TECH UNKNOWN unit T-34.requiredTech: Combined Arms -> removed
+DROP stockpile unit T-34: Costs [20] [Steels]
+DROP stockpile unit T-34: [This Unit] heals [10] HP <costs [10] [Steels]> <for [2] movement>
+TECH UNKNOWN unit Panzer.requiredTech: Combined Arms -> removed
+DROP stockpile unit Panzer: Costs [20] [Steels]
+DROP stockpile unit Panzer: [This Unit] heals [10] HP <costs [10] [Steels]> <for [2] movement>
+TECH UNKNOWN unit Persian Immortal.requiredTech: Bronze Working -> removed
+TECH unit Persian Immortal.obsoleteTech: Defensive Fortification -> Construction
+REWRITE unit Persian Immortal: [+40]% Strength <vs [{Melee} {Mobile}] units> -> [+40]% Strength <vs [Mounted] units>
+DROP ref unit Persian Immortal: Number of Fighters :: Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>
+REWRITE unit Persian Immortal(Ranged): [+33]% Strength <vs [{Melee} {Mobile}] units> -> [+33]% Strength <vs [Mounted] units>
+TECH UNKNOWN unit Hoplite.requiredTech: Bronze Working -> removed
+TECH unit Hoplite.obsoleteTech: Defensive Fortification -> Construction
+REWRITE unit Hoplite: [+40]% Strength <vs [{Melee} {Mobile}] units> -> [+40]% Strength <vs [Mounted] units>
+DROP ref unit Hoplite: Number of Fighters :: Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>
+TECH UNKNOWN unit Pictish Warrior.requiredTech: Bronze Working -> removed
+TECH unit Pictish Warrior.obsoleteTech: Defensive Fortification -> Construction
+REWRITE unit Pictish Warrior: [+40]% Strength <vs [{Melee} {Mobile}] units> -> [+40]% Strength <vs [Mounted] units>
+DROP ref unit Pictish Warrior: Number of Fighters :: Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>
+TECH unit Landsknecht.requiredTech: Defensive Fortification -> Construction
+REWRITE unit Landsknecht: [+40]% Strength <vs [{Melee} {Mobile}] units> -> [+40]% Strength <vs [Mounted] units>
+DROP ref unit Landsknecht: Number of Fighters :: Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>
+TECH unit Impi.requiredTech: Army Formation -> Bronze Working
+REWRITE unit Impi: [+40]% Strength <vs [{Melee} {Mobile}] units> -> [+40]% Strength <vs [Mounted] units>
+DROP ref unit Impi: Number of Fighters :: Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>
+TECH unit Palace Guard.requiredTech: Army Formation -> Bronze Working
+REWRITE unit Palace Guard: [+40]% Strength <vs [{Melee} {Mobile}] units> -> [+40]% Strength <vs [Mounted] units>
+DROP ref unit Palace Guard: Number of Fighters :: Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>
+DROP marker unit Palace Guard: Comment [[Gold] cost of purchasing [Palace Guard] units [-33]%]
+DROP stockpile unit Palace Guard: [This Unit] heals [25] HP <costs [+50 Gold] stats>
+TECH UNKNOWN unit Sipahi.obsoleteTech: Combined Arms -> removed
+DROP stockpile unit Sipahi: Costs [10] [Steels]
+REWRITE unit Sipahi: [+33]% Strength <vs [{Melee} {Mobile}] units> -> [+33]% Strength <vs [Mounted] units>
+DROP stockpile unit Sipahi: [This Unit] heals [10] HP <costs [10] [Steels]> <for [2] movement>
+TECH UNKNOWN unit Hakkapeliitta.obsoleteTech: Combined Arms -> removed
+DROP stockpile unit Hakkapeliitta: Costs [10] [Steels]
+REWRITE unit Hakkapeliitta: [+33]% Strength <vs [{Melee} {Mobile}] units> -> [+33]% Strength <vs [Mounted] units>
+DROP stockpile unit Hakkapeliitta: [This Unit] heals [10] HP <costs [10] [Steels]> <for [2] movement>
+TECH UNKNOWN unit Winged Hussar.obsoleteTech: Combined Arms -> removed
+DROP stockpile unit Winged Hussar: Costs [10] [Steels]
+REWRITE unit Winged Hussar: [+33]% Strength <vs [{Melee} {Mobile}] units> -> [+33]% Strength <vs [Mounted] units>
+DROP stockpile unit Winged Hussar: [This Unit] heals [10] HP <costs [10] [Steels]> <for [2] movement>
+TECH UNKNOWN unit Ballista.requiredTech: The Wheel -> removed
+TECH UNKNOWN unit Battering Ram.requiredTech: The Wheel -> removed
+TECH UNKNOWN unit Turtle Ship.obsoleteTech: Steam Power -> removed
+TECH UNKNOWN unit Jukung Perang.obsoleteTech: Steam Power -> removed
+TECH UNKNOWN unit Dragon Boat.obsoleteTech: Steam Power -> removed
+DROP stockpile unit Minas Gerais Battleship: Costs [20] [Steels]
+DROP stockpile unit Minas Gerais Battleship: [This Unit] heals [10] HP <costs [10] [Steels]> <for [2] movement>
+DROP stockpile unit Almirante Battleship: Costs [20] [Steels]
+DROP stockpile unit Almirante Battleship: [This Unit] heals [10] HP <costs [10] [Steels]> <for [2] movement>
+DROP stockpile unit B17: Costs [10] [Aluminum]
+DROP stockpile unit B17: [This Unit] heals [10] HP <costs [10] [Aluminum]> <for [1] movement>
+DROP ref unit Rock Band: Start a Concert :: [This Unit] gains the [Start a Concert] promotion <upon ending a turn in a [Land] tile> <hidden from users>
+DROP marker unit Rock Band: Comment [[Gain 7 [Culture] and 14 [Gold] in non-Enemy tiles, or triple the amoun
+DROP ref unit Rock Band: External Cultural Influence :: Instantly provides [5] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/6))]> <upon turn end> <in [{Major} {Foreign
+DROP marker unit Rock Band: Comment [Instantly provides 5 [External Cultural Influence] in Major Foreign Lan
+DROP ref unit Khan: Civilized Leader :: [+20]% Strength bonus for [Land] units within [1] tiles <for [Mamluks] Civilizations> <if [Civilized Leader-Baybars] is constructed> <hidden
+DROP ref unit Khan: Civilized Leader :: [+30]% Strength bonus for [Land] units within [0] tiles <for [Mamluks] Civilizations> <if [Civilized Leader-Baybars] is constructed> <hidden
+DROP ref bld Satrap's Court: City Level :: Only available <in cities with a [City Level II]>
+DROP ref bld Satrap's Court: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Satrap's Court: BUILDING
+DROP ref bld Bazaar: City Level :: Only available <in cities with a [City Level II]>
+DROP ref bld Bazaar: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP ref bld Bazaar: [Camel] :: [+3 Faith] from [Camel] tiles [in this city]
+DROP ref bld Bazaar: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Bazaar: BUILDING
+TECH UNKNOWN bld Posthouse: Horseback Riding -> removed
+DROP ref bld Posthouse: City Level :: Only available <in cities with a [City Level II]>
+REWRITE bld Posthouse: [+25]% Production when constructing [Mobile] units [in this city]
+DROP ref bld Posthouse: [Livestock] :: [+1 Production] from [Livestock] tiles [in this city]
+DROP ref bld Posthouse: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Posthouse: BUILDING
+DROP ref bld Mughal Fort: City Level :: Only available <in cities with a [City Level III]>
+DROP ref bld Mughal Fort: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Mughal Fort: BUILDING
+DROP marker bld Mughal Fort: MILITARY
+DROP ref bld Korean Academy: City Level :: Only available <in cities with a [City Level III]>
+DROP ref bld Korean Academy: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Korean Academy: BUILDING
+TECH UNKNOWN bld Walls of Babylon: Bronze Working -> removed
+DROP ref bld Walls of Babylon: City Level :: Only available <in cities with a [City Level I]>
+DROP ref bld Walls of Babylon: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Walls of Babylon: BUILDING
+DROP marker bld Walls of Babylon: MILITARY
+TECH bld Minaret of Jam: Belief Worship -> Pottery
+DROP ref bld Minaret of Jam: City Level :: Only available <in cities with a [City Level I]>
+DROP ref bld Minaret of Jam: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Minaret of Jam: BUILDING
+TECH bld Wailing Wall: Belief Worship -> Pottery
+DROP ref bld Wat: City Level :: Only available <in cities with a [City Level III]>
+DROP ref bld Wat: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Wat: BUILDING
+DROP ref bld Lydia Mint: City Level :: Only available <in cities with a [City Level II]>
+DROP ref bld Lydia Mint: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Lydia Mint: BUILDING
+DROP ref bld Loot Warehouse: City Level :: Only available <in cities with a [City Level II]>
+DROP ref bld Loot Warehouse: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Loot Warehouse: BUILDING
+DROP ref bld Acropolis: City Level :: Only available <in cities with a [City Level II]>
+DROP ref bld Acropolis: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Acropolis: BUILDING
+TECH bld Military Royal School: Army Formation -> Bronze Working
+DROP ref bld Military Royal School: City Level :: Only available <in cities with a [City Level II]>
+DROP ref bld Military Royal School: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Military Royal School: BUILDING
+DROP marker bld Military Royal School: MILITARY
+DROP ref bld French Castle: City Level :: Only available <in cities with a [City Level III]>
+DROP ref bld French Castle: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld French Castle: BUILDING
+DROP marker bld French Castle: MILITARY
+TECH UNKNOWN bld Galata Tower: Bronze Working -> removed
+DROP ref bld Galata Tower: City Level :: Only available <in cities with a [City Level I]>
+DROP ref bld Galata Tower: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Galata Tower: BUILDING
+DROP marker bld Galata Tower: MILITARY
+DROP ref bld Lavra Monastery: City Level :: Only available <in cities with a [City Level II]>
+DROP ref bld Lavra Monastery: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Lavra Monastery: BUILDING
+TECH UNKNOWN bld Racetrack: Horseback Riding -> removed
+DROP ref bld Racetrack: City Level :: Only available <in cities with a [City Level II]>
+DROP ref bld Racetrack: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Racetrack: BUILDING
+DROP ref bld Racetrack: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Racetrack: BUILDING
+DROP ref bld Racetrack: External Cultural Influence :: Provides [1] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden fr
+DROP marker bld Racetrack: Comment [[[Provides [1] [External Cultural Influence]] [when [Cultural] Victory 
+TECH bld Column: Burial Custom -> Pottery
+DROP ref bld Column: City Level :: Only available <in cities with a [City Level I]>
+DROP ref bld Column: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Column: BUILDING
+DROP marker bld Column: MILITARY
+TECH UNKNOWN bld Royal Navy Dockyard: Steam Power -> removed
+DROP ref bld Royal Navy Dockyard: City Level :: Only available <in cities with a [City Level V]>
+DROP stockpile bld Royal Navy Dockyard: Costs [15] [Steels]
+DROP marker bld Royal Navy Dockyard: Seaside Building
+DROP ref bld Studenica Monastery: City Level :: Only available <in cities with a [City Level II]>
+DROP ref bld Studenica Monastery: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Studenica Monastery: BUILDING
+DROP ref bld Hanse: City Level :: Only available <in cities with a [City Level IV]>
+DROP ref bld Hanse: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Hanse: BUILDING
+TECH bld Santa Claus House: Art -> Acoustics
+DROP ref bld Red Square: Defend the Motherland :: All newly-trained [Military] units [in all cities] receive the [Defend the Motherland] promotion
+TECH UNKNOWN bld Ducal Stable: Horseback Riding -> removed
+DROP ref bld Ducal Stable: City Level :: Only available <in cities with a [City Level II]>
+REWRITE bld Ducal Stable: [+15]% Production when constructing [Mobile] units [in this city]
+DROP ref bld Ducal Stable: [Livestock] :: [+2 Production] from [Livestock] tiles [in this city]
+DROP ref bld Ducal Stable: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Ducal Stable: BUILDING
+DROP marker bld Ducal Stable: MILITARY
+TECH bld Ceilidh Hall: Enlightenment -> Acoustics
+DROP ref bld Ceilidh Hall: City Level :: Only available <in cities with a [City Level IV]>
+DROP ref bld Ceilidh Hall: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Ceilidh Hall: BUILDING
+DROP ref bld Ceilidh Hall: External Cultural Influence :: Provides [1] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden fr
+DROP marker bld Ceilidh Hall: Comment [[[Provides [1] [External Cultural Influence]] [when [Cultural] Victory 
+DROP ref bld Ceilidh Hall: External Cultural Influence :: [10]% of [Culture] from every [Culture] in the city added to [External Cultural Influence]
+TECH UNKNOWN bld Grundtvigs Kirke: Drama and Poetry -> removed
+DROP ref bld Grundtvigs Kirke: City Level :: Only available <in cities with a [City Level II]>
+DROP ref bld Grundtvigs Kirke: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Grundtvigs Kirke: BUILDING
+TECH bld General Staff: Army Formation -> Bronze Working
+DROP ref bld General Staff: City Level :: Only available <in cities with a [City Level II]>
+DROP ref bld General Staff: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld General Staff: BUILDING
+DROP marker bld General Staff: MILITARY
+DROP ref bld Ancient Castle: City Level :: Only available <in cities with a [City Level III]>
+DROP ref bld Ancient Castle: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Ancient Castle: BUILDING
+DROP marker bld Ancient Castle: MILITARY
+DROP ref bld Navigation College: City Level :: Only available <in cities with a [City Level III]>
+DROP ref bld Navigation College: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Navigation College: BUILDING
+TECH bld Coffee House: Agricultural Improvement -> Economics
+DROP ref bld Coffee House: City Level :: Only available <in cities with a [City Level III]>
+DROP ref bld Coffee House: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Coffee House: BUILDING
+DROP ref bld Royal Manor: City Level :: Only available <in cities with a [City Level II]>
+DROP ref bld Royal Manor: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Royal Manor: BUILDING
+TECH bld Italian Opera House: Enlightenment -> Acoustics
+DROP ref bld Italian Opera House: City Level :: Only available <in cities with a [City Level IV]>
+DROP ref bld Italian Opera House: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Italian Opera House: BUILDING
+DROP ref bld Italian Opera House: External Cultural Influence :: Provides [1] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden fr
+DROP marker bld Italian Opera House: Comment [[[Provides [1] [External Cultural Influence]] [when [Cultural] Victory 
+DROP ref bld Italian Opera House: External Cultural Influence :: [10]% of [Culture] from every [Culture] in the city added to [External Cultural Influence]
+DROP ref bld Stave Lodge: City Level :: Only available <in cities with a [City Level III]>
+DROP ref bld Stave Lodge: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Stave Lodge: BUILDING
+TECH bld Inca Pyramid: Belief Worship -> Pottery
+DROP ref bld Inca Pyramid: City Level :: Only available <in cities with a [City Level I]>
+DROP ref bld Inca Pyramid: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Inca Pyramid: BUILDING
+DROP ref bld Floating Gardens: City Level :: Only available <in cities with a [City Level I]>
+DROP ref bld Floating Gardens: [Rice] :: [+1 Production] from [Rice] tiles [in this city]
+DROP ref bld Floating Gardens: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Floating Gardens: BUILDING
+TECH bld Pyramid: Belief Worship -> Pottery
+DROP ref bld Pyramid: City Level :: Only available <in cities with a [City Level I]>
+DROP ref bld Pyramid: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Pyramid: BUILDING
+DROP ref bld Grand Manor: City Level :: Only available <in cities with a [City Level I]>
+DROP ref bld Grand Manor: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Grand Manor: BUILDING
+TECH UNKNOWN bld Street Carnival: Horseback Riding -> removed
+DROP ref bld Street Carnival: City Level :: Only available <in cities with a [City Level II]>
+DROP ref bld Street Carnival: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Street Carnival: BUILDING
+DROP ref bld Street Carnival: External Cultural Influence :: Provides [1] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden fr
+DROP marker bld Street Carnival: Comment [[[Provides [1] [External Cultural Influence]] [when [Cultural] Victory 
+DROP ref bld Cuban Capitol: External Cultural Influence :: Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled>
+TECH bld Longhouse: Defensive Fortification -> Construction
+DROP ref bld Longhouse: City Level :: Only available <in cities with a [City Level II]>
+DROP ref bld Longhouse: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Longhouse: BUILDING
+DROP ref bld Ganduo Primary School: City Level :: Only available <in cities with a [City Level I]>
+DROP ref bld Ganduo Primary School: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Ganduo Primary School: BUILDING
+DROP ref bld Burial Tomb: City Level :: Only available <in cities with a [City Level II]>
+DROP ref bld Burial Tomb: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Burial Tomb: BUILDING
+DROP ref bld Tata Somba: City Level :: Only available <in cities with a [City Level I]>
+DROP ref bld Tata Somba: [Grains] :: [+1 Food] from [Grains] tiles [in this city]
+DROP ref bld Tata Somba: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Tata Somba: BUILDING
+DROP ref bld Cothon: City Level :: Only available <in cities with a [City Level II]>
+DROP marker bld Cothon: Seaside Building
+DROP ref bld Cothon: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Cothon: BUILDING
+DROP marker bld Cothon: Comment [No Production Produce]
+TECH bld Stele: Burial Custom -> Pottery
+DROP ref bld Stele: City Level :: Only available <in cities with a [City Level I]>
+DROP ref bld Stele: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Stele: BUILDING
+TECH bld Ikanda: Army Formation -> Bronze Working
+DROP ref bld Ikanda: City Level :: Only available <in cities with a [City Level II]>
+DROP ref bld Ikanda: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Ikanda: BUILDING
+DROP marker bld Ikanda: MILITARY
+DROP ref bld Mud Pyramid Mosque: City Level :: Only available <in cities with a [City Level II]>
+DROP ref bld Mud Pyramid Mosque: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Mud Pyramid Mosque: BUILDING
+DROP ref bld Sugarloaf House: City Level :: Only available <in cities with a [City Level I]>
+DROP ref bld Sugarloaf House: [Grains] :: [+1 Food] from [Grains] tiles [in this city]
+DROP ref bld Sugarloaf House: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Sugarloaf House: BUILDING
+TECH bld Tomb Mound: Belief Worship -> Pottery
+DROP ref bld Tomb Mound: City Level :: Only available <in cities with a [City Level I]>
+DROP ref bld Tomb Mound: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Tomb Mound: BUILDING
+DROP ref bld Kampung: City Level :: Only available <in cities with a [City Level I]>
+DROP ref bld Kampung: [Grains] :: [+1 Food] from [Grains] tiles [in this city]
+DROP ref bld Kampung: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Kampung: BUILDING
+TECH bld Seaside Opera House: Enlightenment -> Acoustics
+DROP ref bld Seaside Opera House: City Level :: Only available <in cities with a [City Level IV]>
+DROP ref bld Seaside Opera House: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Seaside Opera House: BUILDING
+DROP ref bld Seaside Opera House: External Cultural Influence :: Provides [1] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden fr
+DROP marker bld Seaside Opera House: Comment [[[Provides [1] [External Cultural Influence]] [when [Cultural] Victory 
+DROP ref bld Seaside Opera House: External Cultural Influence :: [10]% of [Culture] from every [Culture] in the city added to [External Cultural Influence]
+TECH bld Yun Ji Barracks: Army Formation -> Bronze Working
+DROP ref bld Yun Ji Barracks: City Level :: Only available <in cities with a [City Level II]>
+DROP ref bld Yun Ji Barracks: More Fight More Brave :: All newly-trained [Military] units [in this city] receive the [More Fight More Brave] promotion
+DROP ref bld Yun Ji Barracks: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Yun Ji Barracks: BUILDING
+DROP marker bld Yun Ji Barracks: MILITARY
+DROP ref bld Fane: City Level :: Only available <in cities with a [City Level II]>
+DROP ref bld Fane: Number of Buildings :: Provides [1] [Number of Buildings] <in this city>
+DROP marker bld Fane: BUILDING
+TECH bld Altar of Prayer: Nation -> Philosophy
+REWRITE nation Arabia: [+1 Faith, +1 Science] <while researching [Belief Worship]> -> [+1 Faith, +1 Science] <while researching [Pottery]>
+REWRITE nation Mongolia: [+1] Movement <for [Mobile] units> -> [+1] Movement <for [Mounted] units>
+DROP ref nation Babylon: [Bonfire] :: Gain [11] [Science] <(modified by game speed)><upon constructing [Bonfire] [in all cities]>
+DROP ref nation Babylon: [Kiln] :: Gain [30] [Science] <(modified by game speed)> <upon constructing [Kiln] [in all cities]>
+DROP ref nation Babylon: [Smithy] :: Gain [50] [Science] <(modified by game speed)> <upon constructing [Smithy] [in all cities]>
+DROP ref nation Babylon: [Printing House] :: Gain [135] [Science] <(modified by game speed)> <upon constructing [Printing House] [in all cities]>
+DROP ref nation Babylon: [Shipyard] :: Gain [218] [Science] <(modified by game speed)> <upon constructing [Shipyard] [in all cities]>
+DROP ref nation Babylon: Coal-Fired :: Gain [325] [Science] <(modified by game speed)> <upon constructing [Coal-Fired Power Plant] [in all cities]>
+DROP ref nation Babylon: Chemical Plant :: Gain [400] [Science] <(modified by game speed)> <upon constructing [Chemical Plant] [in all cities]>
+REWRITE nation Afghanistan: Enemy [Mobile] units must spend [1] extra movement points when inside your terri -> Enemy [Mounted] units must spend [1] extra movement points when inside your terr
+DROP ref nation Palestine: Number of Fighters :: [1] free [Warrior] units appear <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <before discovering [Bronze 
+DROP ref nation Palestine: Number of Fighters :: Instantly provides [4] [CD] <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <before discovering [Bronze Work
+DROP ref nation Palestine: Number of Fighters :: [1] free [Warrior] units appear <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <before discovering [Bronze
+DROP ref nation Palestine: Number of Fighters :: Instantly provides [4] [CD] <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <before discovering [Bronze Wor
+DROP ref nation Palestine: Number of Fighters :: [1] free [Spearman] units appear <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Bronze 
+DROP ref nation Palestine: Number of Fighters :: Instantly provides [4] [CD] <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Bronze Worki
+DROP ref nation Palestine: Number of Fighters :: [1] free [Spearman] units appear <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Bronze
+DROP ref nation Palestine: Number of Fighters :: Instantly provides [4] [CD] <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Bronze Work
+DROP ref nation Palestine: Number of Fighters :: [1] free [Pikeman] units appear <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Construc
+DROP ref nation Palestine: Number of Fighters :: Instantly provides [4] [CD] <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Construction
+DROP ref nation Palestine: Number of Fighters :: [1] free [Pikeman] units appear <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Constru
+DROP ref nation Palestine: Number of Fighters :: Instantly provides [4] [CD] <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Constructio
+DROP ref nation Palestine: Number of Fighters :: [1] free [Musketman] units appear <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Gunpow
+DROP ref nation Palestine: Number of Fighters :: Instantly provides [4] [CD] <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Gunpowder]> 
+DROP ref nation Palestine: Number of Fighters :: [1] free [Musketman] units appear <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Gunpo
+DROP ref nation Palestine: Number of Fighters :: Instantly provides [4] [CD] <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Gunpowder]>
+DROP ref nation Palestine: Number of Fighters :: [1] free [Rifleman] units appear <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Rifling
+DROP ref nation Palestine: Number of Fighters :: Instantly provides [4] [CD] <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Rifling]> <b
+DROP ref nation Palestine: Number of Fighters :: [1] free [Rifleman] units appear <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Riflin
+DROP ref nation Palestine: Number of Fighters :: Instantly provides [4] [CD] <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Rifling]> <
+DROP ref nation Palestine: Number of Fighters :: [1] free [Great War Infantry] units appear <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discoverin
+DROP ref nation Palestine: Number of Fighters :: Instantly provides [4] [CD] <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Replaceable 
+DROP ref nation Palestine: Number of Fighters :: [1] free [Great War Infantry] units appear <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discoveri
+DROP ref nation Palestine: Number of Fighters :: Instantly provides [4] [CD] <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Replaceable
+DROP ref nation Palestine: Number of Fighters :: [1] free [Infantry] units appear <when below [1] [Number of Fighters]> <when number of [Cities] is more than [0]> <after discovering [Plasti
+DROP ref nation Palestine: Number of Fighters :: [1] free [Infantry] units appear <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Plastic
+DROP ref nation Palestine: Number of Fighters :: Instantly provides [4] [CD] <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Plastics]> <
+DROP ref nation Palestine: Number of Fighters :: [1] free [Infantry] units appear <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Plasti
+DROP ref nation Palestine: Number of Fighters :: Instantly provides [4] [CD] <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Plastics]> 
+DROP ref nation Palestine: [CD] :: Provides [-1] [CD] <when number of [CD] is more than [0]>
+DROP ref nation Siam: City Level :: [+2]% Yield from every [City Level]
+DROP ref nation Mamluks: Mamluk ability :: All newly-trained [Mounted] units [in all cities] receive the [Mamluk ability] promotion
+DROP ref nation Greece: Special Great Person :: Gain [50] [Culture] <upon expending a [Special Great Person] unit> <(modified by game speed)>
+DROP ref nation Greece: Special Great Person :: Gain [100] [Science] <upon expending a [Special Great Person] unit> <(modified by game speed)>
+DROP ref nation Greece: Special Great Person :: Gain [50] [Culture] <(modified by game speed)> <upon gaining a [Special Great Person] unit>
+DROP ref nation Greece: Special Great Person :: Gain [100] [Science] <(modified by game speed)> <upon gaining a [Special Great Person] unit>
+DROP ref nation Spain: [Colony] :: [+50]% Yield from every [Natural Wonder] <within [1] tiles of a [Colony]>
+DROP ref nation Soviet Union: Civilized Leader :: Gain a free [Civilized Leader-Lenin] [in capital] <before turn number [30]>
+DROP ref nation Soviet Union: Civilized Leader :: Gain a free [Civilized Leader-Stalin] [in capital] <before turn number [30]>
+DROP ref nation Soviet Union: Civilized Leader :: Gain a free [Civilized Leader-Trotsky] [in capital] <before turn number [30]>
+DROP ref nation Soviet Union: Civilized Leader :: Remove [Civilized Leader-Lenin] [in capital] <after turn number [30]> <before turn number [31]> <upon turn end>
+DROP ref nation Soviet Union: Civilized Leader :: Remove [Civilized Leader-Stalin] [in capital] <after turn number [30]> <before turn number [31]> <upon turn end>
+DROP ref nation Soviet Union: Civilized Leader :: Remove [Civilized Leader-Trotsky] [in capital] <after turn number [30]> <before turn number [31]> <upon turn end>
+DROP ref nation Soviet Union: Civilized Leader :: Triggers a [Select Final Civilized Leader] event <after turn number [30]> <before turn number [31]> <upon turn end> <for [Human player] Civi
+DROP ref nation Soviet Union: Civilized Leader :: Gain a free [Civilized Leader-Stalin] [in capital] <after turn number [31]> <before turn number [32]> <upon turn end> <for [AI player] Civil
+DROP ref nation The Netherlands: Obtain Investment Projects :: Triggers a [Obtain Investment Projects] event <upon turn end> <when number of [turns] is equal to [15]>
+DROP ref nation The Netherlands: Obtain Investment Projects :: Triggers a [Obtain Investment Projects] event <upon turn end> <when number of [turns] is equal to [25]>
+DROP ref nation The Netherlands: Obtain Investment Projects :: Triggers a [Obtain Investment Projects] event <upon turn end> <when number of [turns] is equal to [50]>
+DROP ref nation The Netherlands: Obtain Investment Projects :: Triggers a [Obtain Investment Projects] event <upon turn end> <when number of [turns] is equal to [75]>
+DROP ref nation The Netherlands: Obtain Investment Projects :: Triggers a [Obtain Investment Projects] event <upon turn end> <when number of [turns] is equal to [100]>
+DROP ref nation Austria: Marriage Point :: Provides [1] [Marriage Point] <for every [Remaining [Major] Civilizations]>
+DROP ref nation Austria: Marriage with Austria :: [+6]% [Culture] <for every [[Marriage with Austria] Buildings by [Major] Civilizations]>
+DROP ref nation Austria: Marriage with Austria :: [+6]% [Science] <for every [[Marriage with Austria] Buildings by [Major] Civilizations]>
+DROP ref nation Austria: Marriage with Austria :: [+6]% [Production] [in all cities] <for every [[Marriage with Austria] Buildings by [Major] Civilizations]>
+DROP ref nation Austria: Marriage with Austria :: [+6]% Strength <for every [[Marriage with Austria] Buildings by [Major] Civilizations]>
+DROP ref nation Austria: Marriage Point :: [+2 Gold, +1 Happiness] [in capital] <for every [Marriage Point]>
+DROP ref nation Italy: Choose 3 free :: Triggers a [Choose 3 free Great Person points] event <upon constructing [Palace]>
+DROP ref nation Italy: Choose 3 free :: Triggers a [Choose 3 free Great Person points] event <upon gaining a [Great Person] unit>
+DROP ref nation Italy: Choose 3 free :: Triggers a [Choose 3 free Great Person points] event <upon gaining a [Special Great Person] unit>
+DROP ref nation Norway: Silver Coin :: Provides [1] [Silver Coin]
+DROP ref nation Norway: Silver Coin :: Provides [1] [Silver Coin] <during a Golden Age>
+DROP ref nation Aztecs: Cocoa :: [+5 Gold] <when above [0] [Cocoa]>
+DROP ref nation Aztecs: Cocoa :: [+3]% Strength <for [Military] units> <when above [0] [Cocoa]>
+DROP ref nation Aztecs: Panda :: [+5 Gold] <when above [0] [Panda]>
+DROP ref nation Aztecs: Panda :: [+3]% Strength <for [Military] units> <when above [0] [Panda]>
+REWRITE nation The Maya: Research [25]% of [Theology] <upon discovering [Drill Wood to Make Fire] technol -> Research [25]% of [Theology] <upon discovering [Mining] technology>
+DROP ref nation Chile: Feudalism1 :: Remove [Feudalism1] and refund [100]% of its cost <upon entering a new era> <after adopting [Feudalism1]> <before adopting [Feudalism1 Compl
+DROP ref nation Chile: Feudalism1 :: Remove [Monarchy] and refund [100]% of its cost <upon entering a new era> <after adopting [Monarchy]> <before adopting [Feudalism1 Complete]
+DROP ref nation Chile: Feudalism1 :: Remove [Lord-Vassal] and refund [100]% of its cost <upon entering a new era> <after adopting [Lord-Vassal]> <before adopting [Feudalism1 Com
+DROP ref nation Chile: Feudalism1 :: Remove [Centralization] and refund [100]% of its cost <upon entering a new era> <after adopting [Centralization]> <before adopting [Feudalis
+DROP ref nation Chile: Feudalism1 :: Remove [Military Caste] and refund [100]% of its cost <upon entering a new era> <after adopting [Military Caste]> <before adopting [Feudalis
+DROP ref nation Chile: Feudalism1 :: Remove [Landed Elite] and refund [100]% of its cost <upon entering a new era> <after adopting [Landed Elite]> <before adopting [Feudalism1 C
+DROP ref nation Chile: Urbanization :: Remove [Urbanization] and refund [100]% of its cost <upon entering a new era> <after adopting [Urbanization]> <before adopting [Liberty Comp
+DROP ref nation Chile: Imperialism :: Remove [Imperialism] and refund [100]% of its cost <upon entering a new era> <after adopting [Imperialism]> <before adopting [Liberty Comple
+DROP ref nation Chile: Hate Propaganda :: Remove [Hate Propaganda] and refund [100]% of its cost <upon entering a new era> <after adopting [Hate Propaganda]> <before adopting [Autocr
+DROP ref nation Chile: Military Chemical Industry :: Remove [Military Chemical Industry] and refund [100]% of its cost <upon entering a new era> <after adopting [Military Chemical Industry]> <b
+DROP ref nation Chile: Neoliberalism :: Remove [Neoliberalism] and refund [100]% of its cost <upon entering a new era> <after adopting [Neoliberalism]> <before adopting [Freedom Co
+DROP ref nation Chile: Five-Year Plan :: Remove [The Five-Year Plan] and refund [100]% of its cost <upon entering a new era> <after adopting [The Five-Year Plan]> <before adopting [
+DROP ref nation Chile: [Industrial] :: Remove [Industrial] and refund [100]% of its cost <upon entering a new era> <after adopting [Industrial]> <before adopting [Industrial Compl
+DROP ref nation Chile: Price Scissors :: Remove [Price Scissors] and refund [100]% of its cost <upon entering a new era> <after adopting [Price Scissors]> <before adopting [Industri
+DROP ref nation Chile: Industrialism :: Remove [Industrialism] and refund [100]% of its cost <upon entering a new era> <after adopting [Industrialism]> <before adopting [Industrial
+DROP ref nation Chile: Agglomeration :: Remove [Agglomeration Planning] and refund [100]% of its cost <upon entering a new era> <after adopting [Agglomeration Planning]> <before ad
+DROP ref nation Chile: Rural Population :: Remove [Rural Population Migration] and refund [100]% of its cost <upon entering a new era> <after adopting [Rural Population Migration]> <b
+DROP ref nation Chile: Sustainable Development :: Remove [Sustainable Development] and refund [100]% of its cost <upon entering a new era> <after adopting [Sustainable Development]> <before 
+DROP ref nation Chile: Military Reclamation :: Remove [Military Reclamation System] and refund [100]% of its cost <upon entering a new era> <after adopting [Military Reclamation System]> 
+DROP ref nation Egypt: Number of Constructed Wonder :: [Faith] cost of purchasing [Wonder] buildings [+70]% <for every [[Number of Constructed Wonder]-1]>
+DROP ref nation Egypt: Number of Constructed Wonder :: Instantly provides [1] [Number of Constructed Wonder] <upon constructing [World Wonder]>
+DROP ref nation Benin: Sacrifice I :: Triggers a [Sacrifice I] event <upon turn end> <every [5] turns>
+DROP ref nation Benin: Sacrifice I :: Triggers a [Sacrifice II] event <upon conquering a city>
+DROP ref nation Turk: Turk ability :: [Military] units gain the [Turk ability] promotion
+REWRITE nation Glenn Empire: All newly-trained [Reconnaissance] units [in all cities] receive the [Survivalis -> All newly-trained [Scout] units [in all cities] receive the [Survivalism I] prom
+DROP ref nation Khitay Empire: Warfare Aversion :: [-1]% growth [in all cities] <for every [3] [Warfare Aversion Level]>
+DROP ref nation Khitay Empire: Warfare Aversion :: [+1]% Strength <for [Military] units> <for every [3] [Warfare Aversion Level]>
+DROP ref nation Khitay Empire: Warfare Aversion :: [+1]% [Production] <for every [3] [Warfare Aversion Level]>
+RESTORE promo [Red Mirror Horseman] ability with stub unique (original effect not valid in G&K)
+RESTORE promo [Mamluk Cavalry] ability with stub unique (original effect not valid in G&K)
+RESTORE promo [Carolingian Knight] ability with stub unique (original effect not valid in G&K)
