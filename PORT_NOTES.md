@@ -1,0 +1,237 @@
+# Registro de porte nationRPextension
+
+## City-states → plantilla
+- Brussels → Cultured
+- Florence → Cultured
+- Kuala Lumpur → Cultured
+- Milan → Cultured
+- Quebec City → Cultured
+- Cape Town → Maritime
+- Manila → Maritime
+- Mogadishu → Maritime
+- Rio de Janeiro → Maritime
+- Sydney → Maritime
+- Ur → Maritime
+- Vancouver → Mercantile
+- Venice → Mercantile
+- Antwerp → Mercantile
+- Genoa → Mercantile
+- Kathmandu → Mercantile
+- Tyre → Mercantile
+- Zanzibar → Mercantile
+- Almaty → Militaristic
+- M'Banza-Kongo → Militaristic
+- Sidon → Militaristic
+- Valletta → Militaristic
+- Bratislava → Religious
+- Cahokia → Religious
+- Jerusalem → Religious
+- Auckland → Industry
+- Cardiff → Industry
+- Johannesburg → Industry
+
+Los bonos específicos de cada ciudad-estado (los que estaban en su propio CityStateType) no se portan. Solo la plantilla.
+Se elimina `Provides [n] [Diplomatic Point]` (no existe en G&K).
+
+- Nación Iran: se omite favoredReligion=Zoroastrianism
+- Nación Arabia: se omite favoredReligion=Islam
+- Nación Mongolia: se omite favoredReligion=Tengriism
+- Nación India: se omite favoredReligion=Hinduism
+- Nación Korea: se omite favoredReligion=Confucianism
+- Nación Babylon: se omite favoredReligion=Islam
+- Nación Afghanistan: se omite favoredReligion=Islam
+- Nación Vietnam: se omite favoredReligion=Buddhism
+- Nación Palestine: se omite favoredReligion=Islam
+- Nación Siam: se omite favoredReligion=Buddhism
+- Nación Singapore: se omite favoredReligion=Buddhism
+- Nación Lydia: se omite favoredReligion=Christianity
+- Nación Tubo: se omite favoredReligion=Buddhism
+- Nación Mamluks: se omite favoredReligion=Islam
+- Nación Cambodia: se omite favoredReligion=Buddhism
+- Nación Assyrian: se omite favoredReligion=Zoroastrianism
+- Nación Sri Vijaya: se omite favoredReligion=Buddhism
+- Nación Greece: se omite favoredReligion=Christianity
+- Nación Macedonia: se omite favoredReligion=Christianity
+- Nación France: se omite favoredReligion=Christianity
+- Nación Turkey: se omite favoredReligion=Islam
+- Nación Russia: se omite favoredReligion=Christianity
+- Nación Byzantium: se omite favoredReligion=Christianity
+- Nación Rome: se omite favoredReligion=Christianity
+- Nación England: se omite favoredReligion=Christianity
+- Nación Serbia: se omite favoredReligion=Christianity
+- Nación Germany: se omite favoredReligion=Christianity
+- Nación Spain: se omite favoredReligion=Christianity
+- Nación Finland: se omite favoredReligion=Christianity
+- Nación Soviet Union: se omite favoredReligion=Christianity
+- Nación Poland: se omite favoredReligion=Christianity
+- Nación Vatican: se omite favoredReligion=Christianity
+- Nación Celts: se omite favoredReligion=Christianity
+- Nación Denmark: se omite favoredReligion=Christianity
+- Nación The Netherlands: se omite favoredReligion=Christianity
+- Nación Sweden: se omite favoredReligion=Christianity
+- Nación Scotland: se omite favoredReligion=Christianity
+- Nación Portugal: se omite favoredReligion=Christianity
+- Nación Austria: se omite favoredReligion=Christianity
+- Nación Franks: se omite favoredReligion=Christianity
+- Nación Italy: se omite favoredReligion=Christianity
+- Nación Norway: se omite favoredReligion=Christianity
+- Nación Inca: se omite favoredReligion=Christianity
+- Nación Aztecs: se omite favoredReligion=Christianity
+- Nación The Maya: se omite favoredReligion=Christianity
+- Nación Columbia: se omite favoredReligion=Christianity
+- Nación Brazil: se omite favoredReligion=Christianity
+- Nación Cuba: se omite favoredReligion=Christianity
+- Nación America: se omite favoredReligion=Christianity
+- Nación Argentina: se omite favoredReligion=Christianity
+- Nación Iroquois: se omite favoredReligion=Christianity
+- Nación Chile: se omite favoredReligion=Christianity
+- Nación Burkina Faso: se omite favoredReligion=Islam
+- Nación Egypt: se omite favoredReligion=Islam
+- Nación Benin: se omite favoredReligion=Islam
+- Nación Carthage: se omite favoredReligion=Islam
+- Nación Ethiopia: se omite favoredReligion=Christianity
+- Nación Zulu: se omite favoredReligion=Islam
+- Nación Songhai: se omite favoredReligion=Islam
+- Nación Mali: se omite favoredReligion=Islam
+- Nación The Huns: se omite favoredReligion=Tengriism
+- Nación Scythian: se omite favoredReligion=Christianity
+- Nación Polynesia: se omite favoredReligion=Christianity
+- Nación Indonesia: se omite favoredReligion=Islam
+- Nación Turk: se omite favoredReligion=Judaism
+- Nación Australia: se omite favoredReligion=Christianity
+- Nación Yun Ji Court: se omite favoredReligion=Taoism
+- Nación Glenn Empire: se omite favoredReligion=Confucianism
+- Nación Khitay Empire: se omite favoredReligion=Confucianism
+- Nación Iron Blood Kingdom: se omite favoredReligion=Confucianism
+- Nación Sumusuming: se omite favoredReligion=Confucianism
+- Nación LianFang Court: se omite favoredReligion=Confucianism
+
+## Promociones
+Las que ya existen en G&K no se redefinen.
+- Se reutiliza de G&K: Boarding Party I
+- Se reutiliza de G&K: Coastal Raider I
+- Se reutiliza de G&K: Coastal Raider II
+- Se reutiliza de G&K: Drill I
+- Se reutiliza de G&K: Drill II
+- Se reutiliza de G&K: Haka War Dance
+- Se reutiliza de G&K: Indirect Fire
+- Se reutiliza de G&K: Pictish Courage
+- EXCLUIDA unique de promoción `[Carolingian Knight] ability`: `Earn [20]% of the damage done to [Military] units as [Faith]` — unique no estándar
+- Promoción [Carolingian Knight] ability queda vacía; no se incluye
+- Se reutiliza de G&K: [Chu-Ko-Nu] ability
+- Se reutiliza de G&K: [Conquistador] ability
+- Se reutiliza de G&K: [Cossack] ability
+- Se reutiliza de G&K: [Hakkapeliitta] ability
+- Unique reescrita en [Heavy Spear Cavalry] ability: `[+25]% Strength <vs [Mobile] units>` → `[+25]% Strength <vs [Mounted] units>`
+- Se reutiliza de G&K: [Hussar] ability
+- Se reutiliza de G&K: [Jaguar] ability
+- Se reutiliza de G&K: [Janissary] ability
+- EXCLUIDA unique de promoción `[Mamluk Cavalry] ability`: `[This Unit] heals [20] HP <costs [+20 Gold] stats> <for [1] movement>` — efecto de acción con coste; sintaxis no confirmada como pasiva
+- Promoción [Mamluk Cavalry] ability queda vacía; no se incluye
+- Se reutiliza de G&K: [Mohawk Warrior] ability
+- Se reutiliza de G&K: [Persian Immortal] ability
+- EXCLUIDA unique de promoción `[Red Mirror Horseman] ability`: `[+10]% Strength <when adjacent to a [Shooter] unit>` — filtro Shooter (adyacencia) no tiene equivalente único en G&K
+- Promoción [Red Mirror Horseman] ability queda vacía; no se incluye
+- EXCLUIDA unique de promoción `[Templar Knight] ability`: `Prevents spreading of religion to the city it is next to` — unique no estándar / depende de religión custom
+- Unique reescrita en [Yin Archer] ability: `[+10]% Strength <when adjacent to a [Mobile] unit>` → `[+10]% Strength <when adjacent to a [Mounted] unit>`
+- Edificio Royal Navy Dockyard: se quita replaces=Shipyard (no existe en G&K)
+- Edificio Red Square: se quita replaces=Ministry of Defense (no existe en G&K)
+- Edificio Ducal Stable: recursos cercanos eliminados ['Camel', 'Bison', 'Cow']
+- Edificio Grand Manor: se quita replaces=Kiln (no existe en G&K)
+
+## UnitTypes de unidades únicas
+- SovietWorker: Civilian → Civilian (replaces Worker)
+- Srivijayan Vanguard: Reconnaissance → Scout (replaces Scout)
+- Mossi Warrior: Foot Soldier → Sword (replaces Warrior)
+- Jaguar: Foot Soldier → Sword (replaces Warrior)
+- Maori Warrior: Foot Soldier → Sword (replaces Warrior)
+- Hypaspist: Foot Soldier → Sword (replaces Swordsman)
+- Iron Wall Legion: Foot Soldier → Sword (replaces Swordsman)
+- Legion: Foot Soldier → Sword (replaces Swordsman)
+- Berserker: Foot Soldier → Sword (replaces Swordsman)
+- Battering Ram Warrior: Foot Soldier → Sword (replaces Swordsman)
+- Five Flank Heavy Infantry: Foot Soldier → Sword (replaces Longswordsman)
+- Mohawk Warrior: Foot Soldier → Sword (replaces Longswordsman)
+- Black Watch: Foot Soldier → Sword (replaces Longswordsman)
+- Musketeer: Foot Soldier → Gunpowder (replaces Musketman)
+- Dahomei Women's Guard: Foot Soldier → Gunpowder (replaces Musketman)
+- Janissary: Foot Soldier → Gunpowder (replaces Musketman)
+- Tercio: Foot Soldier → Gunpowder (replaces Musketman)
+- Minuteman: Foot Soldier → Gunpowder (replaces Musketman)
+- Mehal Sefari: Foot Soldier → Gunpowder (replaces Rifleman)
+- Andean Army: Foot Soldier → Gunpowder (replaces Rifleman)
+- Redshirts: Foot Soldier → Gunpowder (replaces Rifleman)
+- Foreign Legion: Foot Soldier → Gunpowder (replaces Great War Infantry)
+- Miner Corps: Foot Soldier → Gunpowder (replaces Great War Infantry)
+- Cobra Commando: Foot Soldier → Gunpowder (replaces Infantry)
+- Cuban International Revolutionary Fighter: Foot Soldier → Gunpowder (replaces Paratrooper)
+- Slinger: Shooter → Archery (replaces Archer)
+- Atlatlist: Shooter → Archery (replaces Archer)
+- Bowman: Shooter → Archery (replaces Archer)
+- Yin Archer: Shooter → Archery (replaces Composite Bowman)
+- Armored Archer: Shooter → Archery (replaces Composite Bowman)
+- Mobile Archer: Shooter → Archery (replaces Composite Bowman)
+- Longbowman: Shooter → Archery (replaces Crossbowman)
+- Chu-Ko-Nu: Shooter → Archery (replaces Crossbowman)
+- Fjelljeger: Shooter → Archery (replaces Crossbowman)
+- Bazooka: Shooter → Ranged Gunpowder (replaces Machine Gun)
+- Companion Cavalry: Mobile → Mounted (replaces Horseman)
+- Cataphract: Mobile → Mounted (replaces Horseman)
+- African Forest Elephant: Mobile → Mounted (replaces Horseman)
+- Heavy Spear Cavalry: Mobile → Mounted (replaces Horseman)
+- Red Mirror Horseman: Mobile → Mounted (replaces Horseman)
+- Guards Horseman: Mobile → Mounted (replaces Horseman)
+- War Chariot: Mobile → Archery (replaces Chariot Archer)
+- War Elephant: Mobile → Archery (replaces Chariot Archer)
+- Horse Archer: Mobile → Archery (replaces Chariot Archer)
+- Ancient Chinese Chariot: Foot Soldier → Archery (replaces Chariot Archer)
+- Cossack: Mobile → Mounted (replaces Knight)
+- Conquistador: Mobile → Mounted (replaces Knight)
+- Vietnam War Elephant: Mobile → Mounted (replaces Knight)
+- Templar Knight: Mobile → Mounted (replaces Knight)
+- Naresuan's Elephant: Mobile → Mounted (replaces Knight)
+- Mandekalu Cavalry: Mobile → Mounted (replaces Knight)
+- Elite Cavalry: Mobile → Mounted (replaces Knight)
+- Mamluk Cavalry: Mobile → Mounted (replaces Knight)
+- Carolingian Knight: Mobile → Mounted (replaces Knight)
+- Camel Archer: Mobile → Mounted (fallback desde Mobile)
+- Keshik: Mobile → Mounted (fallback desde Mobile)
+- Cowboy Cavalry: Mobile → Mounted (replaces Cavalry)
+- Hussar: Mobile → Mounted (replaces Cavalry)
+- T-34: Mobile → Armored (replaces Tank)
+- Panzer: Mobile → Armored (replaces Tank)
+- Persian Immortal: Anti-Mobile → Sword (replaces Spearman)
+- Persian Immortal(Ranged): Anti-Mobile → Sword (fallback desde Anti-Mobile)
+- Hoplite: Anti-Mobile → Sword (replaces Spearman)
+- Pictish Warrior: Anti-Mobile → Sword (replaces Spearman)
+- Landsknecht: Anti-Mobile → Sword (replaces Pikeman)
+- Impi: Anti-Mobile → Sword (replaces Pikeman)
+- Palace Guard: Anti-Mobile → Sword (replaces Pikeman)
+- Sipahi: Anti-Mobile → Mounted (replaces Lancer)
+- Hakkapeliitta: Anti-Mobile → Mounted (replaces Lancer)
+- Winged Hussar: Anti-Mobile → Mounted (replaces Lancer)
+- Ballista: Siege → Siege (replaces Catapult)
+- Battering Ram: Siege → Siege (replaces Catapult)
+- Hwach'a: Siege → Siege (replaces Trebuchet)
+- Ballista Elephant: Siege → Siege (replaces Trebuchet)
+- Light Cannon: Siege → Siege (replaces Cannon)
+- Dromon: Ranged Water → Melee Water (replaces Trireme)
+- Quinquereme: Melee Water → Melee Water (replaces Trireme)
+- Turtle Ship: Melee Water → Melee Water (replaces Caravel)
+- Jukung Perang: Melee Water → Melee Water (replaces Caravel)
+- Dragon Boat: Melee Water → Melee Water (replaces Caravel)
+- Sea Beggar: Melee Water → Melee Water (replaces Privateer)
+- Calavera Boat: Ranged Water → Ranged Water (replaces Galleass)
+- Ship of the Line: Ranged Water → Ranged Water (replaces Frigate)
+- Minas Gerais Battleship: Ranged Water → Ranged Water (replaces Battleship)
+- Almirante Battleship: Ranged Water → Ranged Water (replaces Battleship)
+- B17: Bomber → Bomber (replaces Bomber)
+- Rock Band: Civilian → Civilian (replaces Great Artist)
+- Yun Ji Commander: Civilian → Civilian (replaces Great General)
+- Staff: Civilian → Civilian (replaces Great General)
+- Khan: Civilian → Civilian (replaces Great General)
+
+Naciones: 101 (mayores 73, CS 28)
+Unidades únicas: 90
+Edificios únicos (sin Civilized Leader / Pope): 60
+Promociones nuevas: 24

@@ -1,0 +1,185 @@
+[
+  {
+    "name": "Additional Range",
+    "uniques": [
+      "[+1] Range"
+    ],
+    "unitTypes": [
+      "Archery",
+      "Ranged Gunpowder",
+      "Siege",
+      "Ranged Water",
+      "Submarine"
+    ],
+    "row": 3,
+    "column": 14
+  },
+  {
+    "name": "Charge I",
+    "uniques": [
+      "[+15]% Strength <when fighting in [Open terrain] tiles>"
+    ],
+    "unitTypes": [
+      "Mounted",
+      "Armored"
+    ],
+    "row": 1,
+    "column": 14
+  },
+  {
+    "name": "Pinpoint Bombing I",
+    "uniques": [
+      "[+33]% Strength <vs cities>"
+    ],
+    "unitTypes": [
+      "Bomber"
+    ],
+    "row": 1,
+    "column": 67
+  },
+  {
+    "name": "Sealift",
+    "uniques": [
+      "May heal outside of friendly territory",
+      "[+15] HP when healing <in [Foreign Land] tiles>"
+    ],
+    "unitTypes": [
+      "Melee Water",
+      "Ranged Water",
+      "Submarine"
+    ],
+    "row": 3,
+    "column": 10
+  },
+  {
+    "name": "Tactical Evasion I",
+    "uniques": [
+      "Damage taken from interception reduced by [25]%"
+    ],
+    "unitTypes": [
+      "Bomber"
+    ],
+    "row": 2,
+    "column": 68
+  },
+  {
+    "name": "[African Forest Elephant] ability",
+    "uniques": [
+      "[Great General] is earned [100]% faster"
+    ]
+  },
+  {
+    "name": "[Andean Army] ability",
+    "uniques": [
+      "Ignores terrain cost",
+      "Can pass through impassable tiles"
+    ]
+  },
+  {
+    "name": "[Battering Ram Warrior] ability",
+    "uniques": [
+      "[+33]% Strength <vs cities> <when attacking>"
+    ]
+  },
+  {
+    "name": "[Berserker] ability",
+    "uniques": [
+      "Destroys tile improvements when attacking",
+      "Ignores Zone of Control"
+    ]
+  },
+  {
+    "name": "[Black Watch] ability",
+    "uniques": [
+      "[+20]% Strength <when fighting in [Rough terrain] tiles>"
+    ]
+  },
+  {
+    "name": "[Companion Cavalry] ability",
+    "uniques": [
+      "[+15]% Strength <when attacking> <when above [90] HP>"
+    ]
+  },
+  {
+    "name": "[Elite Cavalry] ability",
+    "uniques": [
+      "[+15]% Strength <when adjacent to a [Great General] unit>"
+    ]
+  },
+  {
+    "name": "[Fjelljeger] ability",
+    "uniques": [
+      "[+1] Movement <in [Hill] tiles>"
+    ]
+  },
+  {
+    "name": "[Heavy Spear Cavalry] ability",
+    "uniques": [
+      "[+25]% Strength <vs [Mounted] units>"
+    ]
+  },
+  {
+    "name": "[Hypaspist] ability",
+    "uniques": [
+      "[+75]% to Flank Attack bonuses"
+    ]
+  },
+  {
+    "name": "[Impi] ability",
+    "uniques": [
+      "[+50]% XP gained from combat",
+      "[+50]% to Flank Attack bonuses"
+    ]
+  },
+  {
+    "name": "[Iron Wall Legion] ability",
+    "uniques": [
+      "Can build [Fort] improvements on tiles",
+      "[+20]% Strength <when defending>"
+    ]
+  },
+  {
+    "name": "[Keshik] ability",
+    "uniques": [
+      "[Great General] is earned [50]% faster",
+      "[+50]% XP gained from combat"
+    ]
+  },
+  {
+    "name": "[Miner Corps] ability",
+    "uniques": [
+      "[+20]% Strength <when fighting in [Mine] tiles>"
+    ]
+  },
+  {
+    "name": "[Mobile Archer] ability",
+    "uniques": [
+      "Ignores terrain cost"
+    ]
+  },
+  {
+    "name": "[Redshirts] ability",
+    "uniques": [
+      "[+15]% Strength <when fighting in [Hill] tiles>"
+    ]
+  },
+  {
+    "name": "[Templar Knight] ability",
+    "uniques": [
+      "Gain [200] [Gold] <(modified by game speed)> <upon being defeated>",
+      "Gain [40] [Faith] <(modified by game speed)> <upon being promoted>"
+    ]
+  },
+  {
+    "name": "[Winged Hussar] ability",
+    "uniques": [
+      "Withdraws before melee combat <with [66]% chance>"
+    ]
+  },
+  {
+    "name": "[Yin Archer] ability",
+    "uniques": [
+      "[+10]% Strength <when adjacent to a [Mounted] unit>"
+    ]
+  }
+]

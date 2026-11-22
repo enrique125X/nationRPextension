@@ -1,0 +1,1040 @@
+[
+  {
+    "name": "Satrap's Court",
+    "replaces": "Market",
+    "uniqueTo": "Iran",
+    "gold": 2,
+    "happiness": 1,
+    "specialistSlots": {
+      "Merchant": 1
+    },
+    "percentStatBonus": {
+      "gold": 25
+    },
+    "requiredTech": "Currency",
+    "uniques": [
+      "Only available <in cities with a [City Level II]>",
+      "[+1 Happiness, +1 Gold] from [Gold Ore] tiles [in this city]",
+      "[+1 Happiness, +1 Gold] from [Silver] tiles [in this city]",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING"
+    ]
+  },
+  {
+    "name": "Bazaar",
+    "replaces": "Market",
+    "uniqueTo": "Arabia",
+    "gold": 2,
+    "specialistSlots": {
+      "Merchant": 1
+    },
+    "percentStatBonus": {
+      "gold": 25
+    },
+    "requiredTech": "Currency",
+    "uniques": [
+      "Only available <in cities with a [City Level II]>",
+      "Provides 1 extra copy of each improved luxury resource near this City",
+      "[+3 Gold] from [Oasis] tiles [in this city]",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "[+3 Faith] from [Camel] tiles [in this city]",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING"
+    ]
+  },
+  {
+    "name": "Posthouse",
+    "maintenance": 1,
+    "production": 2,
+    "replaces": "Stable",
+    "uniqueTo": "Mongolia",
+    "cost": 72,
+    "requiredTech": "Horseback Riding",
+    "uniques": [
+      "Only available <in cities with a [City Level II]>",
+      "[+25]% Production when constructing [Mobile] units [in this city]",
+      "[+1 Production] from [Livestock] tiles [in this city]",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING"
+    ]
+  },
+  {
+    "name": "Mughal Fort",
+    "replaces": "Castle",
+    "uniqueTo": "India",
+    "cityStrength": 7,
+    "cityHealth": 25,
+    "culture": 2,
+    "requiredTech": "Chivalry",
+    "uniques": [
+      "Only available <in cities with a [City Level III]>",
+      "[+1 Gold] [in this city] <after discovering [Flight]>",
+      "Destroyed when the city is captured",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING",
+      "MILITARY"
+    ]
+  },
+  {
+    "name": "Korean Academy",
+    "replaces": "University",
+    "uniqueTo": "Korea",
+    "science": 3,
+    "culture": 2,
+    "maintenance": 2,
+    "percentStatBonus": {
+      "science": 33
+    },
+    "specialistSlots": {
+      "Scientist": 2
+    },
+    "uniques": [
+      "Only available <in cities with a [City Level III]>",
+      "[+2 Science] from [Jungle] tiles [in this city]",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING"
+    ],
+    "requiredTech": "Education"
+  },
+  {
+    "name": "Walls of Babylon",
+    "replaces": "Walls",
+    "uniqueTo": "Babylon",
+    "cityStrength": 4,
+    "cityHealth": 100,
+    "requiredTech": "Bronze Working",
+    "uniques": [
+      "Only available <in cities with a [City Level I]>",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING",
+      "MILITARY"
+    ]
+  },
+  {
+    "name": "Minaret of Jam",
+    "faith": 2,
+    "maintenance": 1,
+    "replaces": "Shrine",
+    "uniqueTo": "Afghanistan",
+    "food": 1,
+    "requiredTech": "Belief Worship",
+    "uniques": [
+      "Only available <in cities with a [City Level I]>",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING"
+    ]
+  },
+  {
+    "name": "Wailing Wall",
+    "cost": 50,
+    "faith": 3,
+    "isNationalWonder": true,
+    "uniqueTo": "Palestine",
+    "uniques": [
+      "Only available <if [Shrine] is constructed in all [non-[Puppeted]] cities>",
+      "Cost increases by [10] per owned city",
+      "Gain enough Faith for [50]% of a Great Prophet"
+    ],
+    "requiredTech": "Belief Worship"
+  },
+  {
+    "name": "Wat",
+    "replaces": "University",
+    "uniqueTo": "Siam",
+    "maintenance": 2,
+    "percentStatBonus": {
+      "science": 33
+    },
+    "specialistSlots": {
+      "Scientist": 2
+    },
+    "culture": 5,
+    "uniques": [
+      "Only available <in cities with a [City Level III]>",
+      "[+2 Science] from [Jungle] tiles [in this city]",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING"
+    ],
+    "requiredTech": "Education"
+  },
+  {
+    "name": "Economic Development Bureau",
+    "cost": 80,
+    "percentStatBonus": {
+      "gold": 25
+    },
+    "isNationalWonder": true,
+    "uniqueTo": "Singapore",
+    "uniques": [
+      "Cost increases by [30] per owned city",
+      "Gain [50] [Gold] <upon declaring friendship> <(modified by game speed)>",
+      "Gain [50] [Gold] <upon discovering [All] technology> <(modified by game speed)>"
+    ],
+    "requiredTech": "Currency"
+  },
+  {
+    "name": "Lydia Mint",
+    "replaces": "Mint",
+    "uniqueTo": "Lydia",
+    "maintenance": 0,
+    "specialistSlots": {
+      "Merchant": 1
+    },
+    "uniques": [
+      "Only available <in cities with a [City Level II]>",
+      "[+2 Gold] from [Luxury resource] tiles [in this city]",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING",
+      "[+2 Gold] from [Gold Ore] tiles [in this city]",
+      "[+2 Gold] from [Silver] tiles [in this city]",
+      "[+2 Gold] from [Copper] tiles [in this city]"
+    ],
+    "requiredTech": "Currency"
+  },
+  {
+    "name": "Loot Warehouse",
+    "replaces": "Mint",
+    "uniqueTo": "Assyrian",
+    "maintenance": 0,
+    "specialistSlots": {
+      "Merchant": 1
+    },
+    "uniques": [
+      "Only available <in cities with a [City Level II]>",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING",
+      "[+2 Gold] from [Gold Ore] tiles [in this city]",
+      "[+2 Gold] from [Silver] tiles [in this city]",
+      "[+2 Gold] from [Copper] tiles [in this city]",
+      "[+2 Production] from [Gold Ore] tiles [in this city]",
+      "[+2 Production] from [Silver] tiles [in this city]",
+      "[+2 Production] from [Copper] tiles [in this city]"
+    ],
+    "requiredTech": "Currency"
+  },
+  {
+    "name": "Acropolis",
+    "culture": 2,
+    "maintenance": 1,
+    "uniqueTo": "Greece",
+    "replaces": "Temple",
+    "requiredTech": "Theology",
+    "uniques": [
+      "Only available <in cities with a [City Level II]>",
+      "Destroyed when the city is captured",
+      "[+1 Faith] per [2] population [in this city]",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING"
+    ]
+  },
+  {
+    "name": "Military Royal School",
+    "maintenance": 1,
+    "cost": 84,
+    "uniques": [
+      "Only available <in cities with a [City Level II]>",
+      "New [Military] units start with [15] XP [in this city]",
+      "Destroyed when the city is captured",
+      "Provides [1] [Horses]",
+      "Provides [1] [Iron]",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING",
+      "MILITARY"
+    ],
+    "requiredTech": "Army Formation",
+    "replaces": "Barracks",
+    "uniqueTo": "Macedonia"
+  },
+  {
+    "name": "French Castle",
+    "replaces": "Castle",
+    "uniqueTo": "France",
+    "cityStrength": 5,
+    "culture": 3,
+    "maintenance": 2,
+    "cityHealth": 50,
+    "requiredTech": "Chivalry",
+    "uniques": [
+      "Only available <in cities with a [City Level III]>",
+      "Destroyed when the city is captured",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING",
+      "MILITARY"
+    ]
+  },
+  {
+    "name": "Galata Tower",
+    "faith": 2,
+    "cityStrength": 5,
+    "cityHealth": 25,
+    "requiredTech": "Bronze Working",
+    "uniques": [
+      "Only available <in cities with a [City Level I]>",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING",
+      "MILITARY"
+    ],
+    "replaces": "Walls",
+    "uniqueTo": "Turkey"
+  },
+  {
+    "name": "Lavra Monastery",
+    "production": 2,
+    "maintenance": 2,
+    "uniqueTo": "Russia",
+    "replaces": "Temple",
+    "requiredTech": "Theology",
+    "uniques": [
+      "Only available <in cities with a [City Level II]>",
+      "Destroyed when the city is captured",
+      "[+1 Faith] per [2] population [in this city]",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING"
+    ]
+  },
+  {
+    "name": "Racetrack",
+    "maintenance": 1,
+    "happiness": 2,
+    "uniqueTo": "Byzantium",
+    "replaces": "Colosseum",
+    "requiredTech": "Horseback Riding",
+    "uniques": [
+      "Only available <in cities with a [City Level II]>",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING",
+      "[1] free [Cataphract] units appear",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING",
+      "Provides [1] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>",
+      "Comment [[[Provides [1] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"
+    ]
+  },
+  {
+    "name": "Column",
+    "culture": 3,
+    "maintenance": 1,
+    "uniqueTo": "Rome",
+    "requiredTech": "Burial Custom",
+    "uniques": [
+      "Only available <in cities with a [City Level I]>",
+      "New [Military] units start with [7] XP [in this city]",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING",
+      "MILITARY"
+    ],
+    "replaces": "Monument"
+  },
+  {
+    "name": "Royal Navy Dockyard",
+    "production": 2,
+    "greatPersonPoints": {
+      "Great Admiral": 2
+    },
+    "maintenance": 4,
+    "uniqueTo": "England",
+    "uniques": [
+      "Only available <in cities with a [City Level V]>",
+      "Costs [15] [Steels]",
+      "Must be next to [Coast]",
+      "Seaside Building",
+      "[+40]% Production when constructing [Water] units [in this city]"
+    ],
+    "requiredTech": "Steam Power"
+  },
+  {
+    "name": "Studenica Monastery",
+    "gold": 3,
+    "maintenance": 0,
+    "uniqueTo": "Serbia",
+    "requiredTech": "Theology",
+    "replaces": "Temple",
+    "uniques": [
+      "Only available <in cities with a [City Level II]>",
+      "Destroyed when the city is captured",
+      "[+1 Faith] per [2] population [in this city]",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING"
+    ]
+  },
+  {
+    "name": "Hanse",
+    "replaces": "Bank",
+    "uniqueTo": "Germany",
+    "gold": 2,
+    "specialistSlots": {
+      "Merchant": 2
+    },
+    "percentStatBonus": {
+      "gold": 30
+    },
+    "requiredTech": "Economics",
+    "uniques": [
+      "Only available <in cities with a [City Level IV]>",
+      "[+15]% [Production] [in this city]",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING"
+    ]
+  },
+  {
+    "name": "Santa Claus House",
+    "isNationalWonder": true,
+    "cost": 50,
+    "uniqueTo": "Finland",
+    "gold": 2,
+    "culture": 3,
+    "requiredTech": "Art",
+    "uniques": [
+      "Gain [200]-[300] [Gold] <(modified by game speed)>",
+      "Gain [50]-[100] [Culture] <(modified by game speed)>"
+    ]
+  },
+  {
+    "name": "Auspicious Snow",
+    "cost": 1,
+    "uniqueTo": "Finland",
+    "maintenance": 0,
+    "replacementTextForUniques": "Remove [Blizzard Wind]\n+1 / +2 [Food] from [Snow] and [Tundra] tiles in all cities\n+1 / +2 [Gold] from every [Camp] in [Tundra] / [Snow] tiles",
+    "uniques": [
+      "Can only be built<in [in capital] cities>",
+      "Cannot be purchased",
+      "Unsellable",
+      "Destroyed when the city is captured",
+      "Remove [Blizzard Wind] [in all cities]",
+      "[+2 Food] from [Snow] tiles [in all cities]",
+      "[+1 Food] from [Tundra] tiles [in all cities]"
+    ]
+  },
+  {
+    "name": "Blizzard Wind",
+    "cost": 1,
+    "uniqueTo": "Finland",
+    "maintenance": 0,
+    "replacementTextForUniques": "Remove [Auspicious Snow]\n+1 / +2 [Production] from [Snow] and [Tundra] tiles\n+1 / +2 [Gold] from every [Lumber mill] in [Tundra] / [Snow] tiles",
+    "uniques": [
+      "Can only be built<in [in capital] cities>",
+      "Cannot be purchased",
+      "Unsellable",
+      "Destroyed when the city is captured",
+      "Remove [Auspicious Snow] [in all cities]",
+      "[+2 Production] from [Snow] tiles [in all cities]",
+      "[+1 Production] from [Tundra] tiles [in all cities]"
+    ]
+  },
+  {
+    "name": "Red Square",
+    "maintenance": 0,
+    "cityHealth": 50,
+    "cost": 120,
+    "uniqueTo": "Soviet Union",
+    "isNationalWonder": true,
+    "uniques": [
+      "[+25]% Production when constructing [Military] units [in all cities]",
+      "Cost increases by [30] per owned city",
+      "All newly-trained [Military] units [in all cities] receive the [Defend the Motherland] promotion"
+    ],
+    "requiredTech": "Archery"
+  },
+  {
+    "name": "Ducal Stable",
+    "maintenance": 1,
+    "replaces": "Stable",
+    "cost": 71,
+    "production": 1,
+    "uniqueTo": "Poland",
+    "requiredNearbyImprovedResources": [
+      "Horses",
+      "Sheep",
+      "Cattle",
+      "Deer"
+    ],
+    "uniques": [
+      "Only available <in cities with a [City Level II]>",
+      "[+15]% Production when constructing [Mobile] units [in this city]",
+      "New [Military] units start with [10] XP [in this city]",
+      "[+2 Production] from [Livestock] tiles [in this city]",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING",
+      "MILITARY"
+    ],
+    "requiredTech": "Horseback Riding"
+  },
+  {
+    "name": "Basilica Di San Pietro In Vaticano",
+    "isNationalWonder": true,
+    "production": 3,
+    "science": 3,
+    "gold": 3,
+    "culture": 1,
+    "faith": 1,
+    "cityStrength": 2,
+    "cost": 1,
+    "uniqueTo": "Vatican",
+    "replaces": "Palace",
+    "uniques": [
+      "Indicates the capital city",
+      "[+1 Faith] per [3] population [in cities following our religion]"
+    ]
+  },
+  {
+    "name": "Ceilidh Hall",
+    "replaces": "Opera House",
+    "uniqueTo": "Celts",
+    "culture": 4,
+    "happiness": 4,
+    "specialistSlots": {
+      "Artist": 2
+    },
+    "percentStatBonus": {
+      "culture": 10,
+      "faith": 10
+    },
+    "maintenance": 3,
+    "requiredTech": "Enlightenment",
+    "uniques": [
+      "Only available <in cities with a [City Level IV]>",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING",
+      "Provides [1] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>",
+      "Comment [[[Provides [1] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]",
+      "[10]% of [Culture] from every [Culture] in the city added to [External Cultural Influence]"
+    ]
+  },
+  {
+    "name": "Grundtvigs Kirke",
+    "replaces": "Amphitheater",
+    "uniqueTo": "Denmark",
+    "culture": 6,
+    "percentStatBonus": {
+      "culture": 10
+    },
+    "specialistSlots": {
+      "Artist": 1
+    },
+    "maintenance": 1,
+    "requiredTech": "Drama and Poetry",
+    "uniques": [
+      "Only available <in cities with a [City Level II]>",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING"
+    ]
+  },
+  {
+    "name": "General Staff",
+    "maintenance": 1,
+    "cost": 84,
+    "uniqueTo": "Sweden",
+    "replaces": "Barracks",
+    "uniques": [
+      "Only available <in cities with a [City Level II]>",
+      "[1] free [Staff] units appear",
+      "New [Military] units start with [15] XP [in this city]",
+      "Destroyed when the city is captured",
+      "Unsellable",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING",
+      "MILITARY"
+    ],
+    "requiredTech": "Army Formation"
+  },
+  {
+    "name": "Ancient Castle",
+    "happiness": 2,
+    "cityStrength": 7,
+    "cityHealth": 25,
+    "requiredTech": "Chivalry",
+    "uniques": [
+      "Only available <in cities with a [City Level III]>",
+      "[15]% of excess happiness converted to [Culture]",
+      "Destroyed when the city is captured",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING",
+      "MILITARY"
+    ],
+    "replaces": "Castle",
+    "uniqueTo": "Scotland"
+  },
+  {
+    "name": "Navigation College",
+    "replaces": "University",
+    "uniqueTo": "Portugal",
+    "culture": 2,
+    "maintenance": 2,
+    "percentStatBonus": {
+      "science": 33
+    },
+    "specialistSlots": {
+      "Scientist": 2
+    },
+    "greatPersonPoints": {
+      "Great Admiral": 2
+    },
+    "uniques": [
+      "Only available <in cities with a [City Level III]>",
+      "[+2 Science] from [Jungle] tiles [in this city]",
+      "[+1 Science] from each Trade Route <in [Coastal] cities>",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING"
+    ],
+    "requiredTech": "Education"
+  },
+  {
+    "name": "Coffee House",
+    "replaces": "Windmill",
+    "uniqueTo": "Austria",
+    "production": 2,
+    "percentStatBonus": {
+      "production": 10
+    },
+    "specialistSlots": {
+      "Engineer": 1
+    },
+    "maintenance": 2,
+    "uniques": [
+      "Only available <in cities with a [City Level III]>",
+      "Must not be on [Hill]",
+      "[+25]% Great Person generation [in this city]",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING"
+    ],
+    "requiredTech": "Agricultural Improvement"
+  },
+  {
+    "name": "Royal Manor",
+    "replaces": "Market",
+    "uniqueTo": "Franks",
+    "gold": 2,
+    "specialistSlots": {
+      "Merchant": 1
+    },
+    "percentStatBonus": {
+      "gold": 25
+    },
+    "requiredTech": "Currency",
+    "uniques": [
+      "Only available <in cities with a [City Level II]>",
+      "[+1 Happiness] from [{improved} {Luxury resource}] tiles [in this city]",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING"
+    ]
+  },
+  {
+    "name": "Italian Opera House",
+    "happiness": 4,
+    "culture": 4,
+    "specialistSlots": {
+      "Artist": 2
+    },
+    "maintenance": 3,
+    "replaces": "Opera House",
+    "uniqueTo": "Italy",
+    "requiredTech": "Enlightenment",
+    "uniques": [
+      "Only available <in cities with a [City Level IV]>",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING",
+      "Provides [1] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>",
+      "Comment [[[Provides [1] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]",
+      "[10]% of [Culture] from every [Culture] in the city added to [External Cultural Influence]",
+      "[+2 Culture] from every specialist [in this city]"
+    ]
+  },
+  {
+    "name": "Stave Lodge",
+    "replaces": "Workshop",
+    "uniqueTo": "Norway",
+    "maintenance": 2,
+    "production": 2,
+    "specialistSlots": {
+      "Engineer": 1
+    },
+    "percentStatBonus": {
+      "production": 15
+    },
+    "uniques": [
+      "Only available <in cities with a [City Level III]>",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING",
+      "[+1 Production] from [Forest] tiles [in this city]"
+    ],
+    "requiredTech": "Machinery"
+  },
+  {
+    "name": "Inca Pyramid",
+    "replaces": "Shrine",
+    "uniqueTo": "Inca",
+    "culture": 2,
+    "faith": 0,
+    "requiredTech": "Belief Worship",
+    "uniques": [
+      "Only available <in cities with a [City Level I]>",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING"
+    ]
+  },
+  {
+    "name": "Floating Gardens",
+    "replaces": "Water Mill",
+    "uniqueTo": "Aztecs",
+    "food": 1,
+    "production": 1,
+    "maintenance": 1,
+    "uniques": [
+      "Only available <in cities with a [City Level I]>",
+      "[+1 Food] from [Lakes] tiles [in this city]",
+      "Must be next to [Fresh water]",
+      "[+15]% [Food] [in this city]",
+      "[+1 Production] from [Wheat] tiles [in this city]",
+      "[+1 Production] from [Rice] tiles [in this city]",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING"
+    ],
+    "requiredTech": "Agriculture"
+  },
+  {
+    "name": "Pyramid",
+    "replaces": "Shrine",
+    "uniqueTo": "The Maya",
+    "faith": 2,
+    "science": 2,
+    "maintenance": 1,
+    "requiredTech": "Belief Worship",
+    "uniques": [
+      "Only available <in cities with a [City Level I]>",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING"
+    ]
+  },
+  {
+    "name": "Grand Manor",
+    "production": 2,
+    "happiness": 1,
+    "science": 1,
+    "maintenance": 0,
+    "uniqueTo": "Columbia",
+    "requiredTech": "Masonry",
+    "uniques": [
+      "Only available <in cities with a [City Level I]>",
+      "[+1 Production] from [Plantation] tiles [in this city]",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING"
+    ]
+  },
+  {
+    "name": "Street Carnival",
+    "maintenance": 1,
+    "happiness": 5,
+    "uniqueTo": "Brazil",
+    "replaces": "Colosseum",
+    "requiredTech": "Horseback Riding",
+    "uniques": [
+      "Only available <in cities with a [City Level II]>",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING",
+      "Provides [1] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>",
+      "Comment [[[Provides [1] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"
+    ]
+  },
+  {
+    "name": "Cuban Capitol",
+    "cost": 232,
+    "requiredTech": "Architecture",
+    "replaces": "Hermitage",
+    "uniqueTo": "Cuba",
+    "isNationalWonder": true,
+    "percentStatBonus": {
+      "culture": 50
+    },
+    "culture": 5,
+    "uniques": [
+      "[-15]% Culture cost of adopting new Policies",
+      "Only available <if [Opera House] is constructed in all [non-[Puppeted]] cities>",
+      "Cost increases by [30] per owned city",
+      "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled>"
+    ]
+  },
+  {
+    "name": "Longhouse",
+    "maintenance": 2,
+    "production": 2,
+    "cost": 100,
+    "uniqueTo": "Iroquois",
+    "replaces": "Workshop",
+    "specialistSlots": {
+      "Engineer": 1
+    },
+    "percentStatBonus": {
+      "production": 15
+    },
+    "uniques": [
+      "Only available <in cities with a [City Level II]>",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING"
+    ],
+    "requiredTech": "Defensive Fortification"
+  },
+  {
+    "name": "San Diego Cathedral",
+    "cost": 105,
+    "percentStatBonus": {
+      "faith": 50
+    },
+    "culture": 8,
+    "uniqueTo": "Chile",
+    "replaces": "Grand Temple",
+    "uniques": [
+      "Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>",
+      "Cost increases by [30] per owned city",
+      "Gain a free [Pantheon] belief",
+      "[+100]% Natural religion spread [in this city]",
+      "Can only be built<in [in holy cities] cities>"
+    ],
+    "requiredTech": "Theology",
+    "isNationalWonder": true
+  },
+  {
+    "name": "Ganduo Primary School",
+    "requiredTech": "Writing",
+    "uniqueTo": "Burkina Faso",
+    "replaces": "Library",
+    "happiness": 1,
+    "maintenance": 1,
+    "uniques": [
+      "Only available <in cities with a [City Level I]>",
+      "[+2 Science] per [3] population [in this city]",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING"
+    ]
+  },
+  {
+    "name": "Burial Tomb",
+    "replaces": "Temple",
+    "uniqueTo": "Egypt",
+    "maintenance": 0,
+    "requiredTech": "Theology",
+    "uniques": [
+      "Only available <in cities with a [City Level II]>",
+      "Destroyed when the city is captured",
+      "[+1 Faith] per [2] population [in this city]",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING"
+    ],
+    "happiness": 2
+  },
+  {
+    "name": "Tata Somba",
+    "replaces": "Granary",
+    "uniqueTo": "Benin",
+    "food": 2,
+    "maintenance": 1,
+    "uniques": [
+      "Only available <in cities with a [City Level I]>",
+      "[+1] population [in this city]",
+      "[+1 Food] from [Grains] tiles [in this city]",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING",
+      "Unsellable"
+    ],
+    "requiredTech": "Masonry"
+  },
+  {
+    "name": "Cothon",
+    "replaces": "Harbor",
+    "uniqueTo": "Carthage",
+    "maintenance": 4,
+    "uniques": [
+      "Only available <in cities with a [City Level II]>",
+      "[+1 Production] from [Water resource] tiles [in this city]",
+      "[+3]% [Gold] from Trade Routes",
+      "Connects trade routes over water",
+      "Must be next to [Coast]",
+      "Seaside Building",
+      "[Water] Units adjacent to this city heal [+15] HP per turn when healing",
+      "[+10]% Production when constructing [{Military} {Water}] units [in this city]",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING",
+      "Comment [No Production Produce]"
+    ],
+    "requiredTech": "Compass"
+  },
+  {
+    "name": "Stele",
+    "replaces": "Monument",
+    "uniqueTo": "Ethiopia",
+    "culture": 3,
+    "faith": 2,
+    "maintenance": 0,
+    "requiredTech": "Burial Custom",
+    "uniques": [
+      "Only available <in cities with a [City Level I]>",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING"
+    ]
+  },
+  {
+    "name": "Ikanda",
+    "maintenance": 1,
+    "cost": 84,
+    "uniqueTo": "Zulu",
+    "replaces": "Barracks",
+    "production": 2,
+    "science": 1,
+    "uniques": [
+      "Only available <in cities with a [City Level II]>",
+      "New [Military] units start with [15] XP [in this city]",
+      "Destroyed when the city is captured",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING",
+      "MILITARY"
+    ],
+    "requiredTech": "Army Formation"
+  },
+  {
+    "name": "Mud Pyramid Mosque",
+    "maintenance": 1,
+    "requiredTech": "Theology",
+    "replaces": "Temple",
+    "uniqueTo": "Songhai",
+    "uniques": [
+      "Only available <in cities with a [City Level II]>",
+      "Destroyed when the city is captured",
+      "[+1 Faith] per [2] population [in this city]",
+      "[+1 Culture] per [2] population [in this city]",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING",
+      "Can be purchased for [80] [Culture] [in all cities]"
+    ]
+  },
+  {
+    "name": "Sugarloaf House",
+    "food": 2,
+    "happiness": 1,
+    "replaces": "Granary",
+    "uniqueTo": "Mali",
+    "maintenance": 0,
+    "uniques": [
+      "Only available <in cities with a [City Level I]>",
+      "[+1 Food] from [Grains] tiles [in this city]",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING"
+    ],
+    "requiredTech": "Masonry"
+  },
+  {
+    "name": "Tomb Mound",
+    "replaces": "Monument",
+    "uniqueTo": "Scythian",
+    "culture": 2,
+    "production": 2,
+    "requiredTech": "Belief Worship",
+    "uniques": [
+      "Only available <in cities with a [City Level I]>",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING"
+    ]
+  },
+  {
+    "name": "Kampung",
+    "food": 2,
+    "cost": 54,
+    "maintenance": 0,
+    "replaces": "Granary",
+    "uniqueTo": "Indonesia",
+    "uniques": [
+      "Only available <in cities with a [City Level I]>",
+      "[+1 Food] from [Grains] tiles [in this city]",
+      "[+1 Food] from [Water] tiles [in this city]",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING"
+    ],
+    "requiredTech": "Masonry"
+  },
+  {
+    "name": "Seaside Opera House",
+    "happiness": 4,
+    "culture": 4,
+    "specialistSlots": {
+      "Artist": 2
+    },
+    "maintenance": 3,
+    "uniqueTo": "Australia",
+    "replaces": "Opera House",
+    "requiredTech": "Enlightenment",
+    "uniques": [
+      "Only available <in cities with a [City Level IV]>",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING",
+      "[+1 Culture] from [Coast] tiles [in this city]",
+      "[+15]% [Culture] <in [Coastal] cities>",
+      "Provides [1] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>",
+      "Comment [[[Provides [1] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]",
+      "[10]% of [Culture] from every [Culture] in the city added to [External Cultural Influence]"
+    ]
+  },
+  {
+    "name": "Yun Ji Barracks",
+    "maintenance": 1,
+    "cost": 63,
+    "uniqueTo": "Yun Ji Court",
+    "replaces": "Barracks",
+    "uniques": [
+      "Only available <in cities with a [City Level II]>",
+      "All newly-trained [Military] units [in this city] receive the [More Fight More Brave] promotion",
+      "New [Military] units start with [15] XP [in this city]",
+      "Destroyed when the city is captured",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING",
+      "MILITARY"
+    ],
+    "requiredTech": "Army Formation"
+  },
+  {
+    "name": "Fane",
+    "uniqueTo": "Glenn Empire",
+    "replaces": "Temple",
+    "maintenance": 1,
+    "requiredTech": "Theology",
+    "uniques": [
+      "Only available <in cities with a [City Level II]>",
+      "Destroyed when the city is captured",
+      "[+2 Faith] per [3] population [in this city]",
+      "[+1 Culture] per [3] population [in this city] <after enhancing a religion>",
+      "Provides [1] [Number of Buildings] <in this city>",
+      "BUILDING"
+    ]
+  },
+  {
+    "name": "Record Pavilion",
+    "uniqueTo": "Sumusuming",
+    "replaces": "Palace",
+    "maintenance": 0,
+    "isNationalWonder": true,
+    "production": 2,
+    "science": 4,
+    "gold": 3,
+    "culture": 2,
+    "cityHealth": 50,
+    "cost": 1,
+    "uniques": [
+      "Indicates the capital city"
+    ]
+  },
+  {
+    "name": "Altar of Prayer",
+    "cost": 105,
+    "science": 3,
+    "replaces": "National College",
+    "isNationalWonder": true,
+    "uniqueTo": "LianFang Court",
+    "percentStatBonus": {
+      "science": 50
+    },
+    "uniques": [
+      "Only available <if [Library] is constructed in all [non-[Puppeted]] cities>",
+      "[+2 Science] from every specialist [in all cities]",
+      "[+33]% Food consumption by [Specialists] [in all cities]",
+      "[+25]% Unhappiness from [Specialists] [in all cities]"
+    ],
+    "requiredTech": "Nation"
+  }
+]
